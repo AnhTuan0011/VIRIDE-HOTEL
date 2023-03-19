@@ -1,0 +1,2206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+/* nav bars */
+.homelist.active{
+  background-color:#FFF;
+  transition: all .4s;
+  
+}
+.navbar-nav.test{
+  color:#000;
+}
+.homelist{
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  padding: 0;
+  background-color:rgba(0, 0, 0, 0.5);
+  transition: all .4s;
+}
+
+.homelist .navbar .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 14rem;
+}
+
+.homelist .navbar .container-fluid .collapse {
+  display: inline;
+}
+
+.nav-link{
+  text-transform: uppercase;
+}
+
+a.nav-link.dropdown-toggle.active {
+  color: #C19B76;
+}
+
+::after {
+  opacity: 0;
+}
+
+div#navbarNavDropdown {
+  margin-left:20rem;
+}
+.nav-item:hover{
+  color:#C19B76;
+}
+
+.navbar-nav {
+  --bs-nav-link-color:unset !important;
+  --bs-nav-link-hover-color:unset !important;
+}
+
+ul.navbar-nav {
+  color: #fff ;
+}
+.dropdown-menu{
+  background-color: #1c1c1c;
+}
+.dropdown-menu a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+ul.dropdown-menu {
+  background-color: #000;
+}
+
+a.dropdown-item {
+  color: #fff;
+  background: unset !important;
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px !important;
+}
+a.dropdown-item:hover{
+  margin-left: 10px;
+  transition: all 0.6s;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ddd;
+  color:#ad8f72;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+/* -----overlay mo backgrouud */
+.gradient-dark {
+  background-color: rgba(34, 34, 34, 0.45);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* slider */
+
+
+
+img.d-block.w-100 {
+  height: 500px;
+}
+
+button.more.gohome {
+  width: 7rem;
+  height: 2.5rem;
+  background: #C19B76;
+  border: none;
+  opacity: 0;
+  animation: buttext 2s forwards;
+  animation-delay: 1s;
+}
+button.more.a.gohome {
+  background: rgb(255 244 244 / 10%);
+  border: 1px solid white;
+  color:#fff;
+  opacity: 0;
+  animation: buttext 2s forwards;
+  animation-delay: 1s;
+
+}
+
+button.more.a.gohome:hover{
+  background-color: #fff;
+  color:#C19B76;
+}
+button.more.gohome:hover{
+  background-color: #fff;
+  color:#C19B76;
+}
+
+.carousel-item h5  {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+}
+
+.carousel-inner p{
+  color: #fff;
+}
+
+.carousel-caption.d-none.d-md-block.forhome {
+  text-align: left;
+  margin-bottom: 6rem;
+  opacity: 0;
+  animation: text 2s forwards;
+}
+
+
+@keyframes text {
+  from {
+    opacity: 0;
+    margin-bottom: -6rem;
+  }
+  to{
+    opacity: 1;
+    margin-bottom: 6rem;
+  }
+}
+
+@keyframes buttext {
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+/* -------------------------- */
+p.text-lorem {
+  width: 60rem;
+  text-align: center;
+  padding: 20px;
+  margin: 50px auto;
+  opacity: 1;
+  color:#85858a;
+  font-size: 18px;
+}
+
+/* content */
+
+p.content-a {
+  padding: 50px;
+  text-align: center;
+}
+
+img.image {
+  height: 30rem;
+  width: 100%;
+}
+
+img.image.a {
+  height: 580px;
+}
+
+img.image.b {
+  margin-top: -6rem;
+  height: 500px;
+}
+
+img.image.c {
+  height: 404px;
+}
+
+
+.sologan {
+  position: absolute;
+  margin-left: 1rem;
+  margin-top: 27rem;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+}
+.sologan.new{
+  margin-top: 33rem;
+}
+
+h2.sologan.end {
+  margin-top: 22rem;
+}
+
+
+.content-fluid {
+  width: 65rem;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0;
+  
+}
+
+/* ---------------------------------------HOME CLASSIC------------------------------ */
+
+/* slider */
+
+img.d-block.w-100 {
+  height: 500px;
+}
+
+button.more {
+  width: 7rem;
+  height: 2.5rem;
+  background: #C19B76;
+  border: none;
+  color:#fff;
+  opacity: 0;
+  animation: buttext 2s forwards;
+  animation-delay: 1s;
+}
+button.more.a-homeclassic {
+  background: rgb(255 244 244 / 10%);
+  border: 1px solid white;
+  color:#fff;
+  opacity: 0;
+  animation: buttext 2s forwards;
+  animation-delay: 1s;
+}
+
+button.more.a-homeclassic:hover{
+  background-color: #fff;
+  color:#C19B76;
+}
+button.more:hover{
+  background-color: #fff;
+  color:#C19B76;
+}
+
+.carousel-item h5  {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+}
+
+.carousel-inner p{
+  color: #fff;
+}
+
+.carousel-caption.d-none.d-md-block.homeclassic {
+  text-align: center;
+  margin-bottom: 6rem;
+  opacity: 0;
+  animation: text 2s forwards;
+}
+
+/* -----booking now */
+
+.book-now{
+  background-color:#1c1c1c;
+  color: #c0c1c2;
+  width: 60rem;
+  height: 20rem;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.checkinfo {
+  display: flex;
+  justify-content: center;
+}
+
+.col-md-3.text-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  /* gap: 1rem; */
+}
+
+
+input[type="date"] {
+  width: 190px;
+  height: 70px;
+  background-color: #323232;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+
+select#country, select#childrent {
+  width: 190px;
+  height: 70px;
+  background-color: #323232;
+  border: none;
+  color: #fff;
+  text-align: right;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+
+button.buy{
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  height: 3rem;
+  width: 8rem;
+  text-align: center;
+  background-color: #1c1c1c;
+  color: #c19b76;
+  border: 1px solid #c19b76;
+  font-family: 'Playfair Display', serif;
+}
+
+button.buy:hover{
+  background-color:#c19b76;
+  border:none;
+  color:#fff;
+
+}
+
+
+
+/* ------content main-luxury---- */
+.content-main {
+  text-align: center;
+  width: 60%;
+  margin: 40px AUTO;
+}
+
+.the-best mark {
+  background-color: #C19B76;
+  color: white;
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+}
+
+p.under-best {
+  padding: 30px 0;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #85858a;
+}
+
+.context-under {
+  font-size: 14px;
+  line-height: 28px;
+  color: #85858a;
+  padding: 20px;
+}
+
+.context-under-left, .context-under-right {
+  padding: 20px;
+}
+
+
+.context-under {
+  display: flex;
+}
+
+h2.the-best {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+p.read {
+  color: #c19b76;
+  line-height: 50px;
+  font-size: 18px;
+}
+
+/* ------food----- */
+.food {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.restaurand {
+display: flex;
+width: 70%;
+margin: 0 auto;
+}
+
+.location {
+display: flex;
+width: 70%;
+margin: 0 auto;
+}
+
+img.footimg-lo, img.foodimg-re  {
+width: 531px;
+height: 500px;
+}
+
+.restaurand-left, .location-right {
+padding: 50px;
+}
+
+h3.restau , h3.loca{
+font-family: 'Playfair Display', serif;
+font-size: 40px;
+}
+.tion,.rand {
+font-size: 14px;
+line-height: 24px;
+margin: 25px 0;
+letter-spacing: 0.5px;
+}
+
+p.rand-one, p.rand-two ,p.tion-one , p.tion-two {
+color: #85858A;
+}
+
+/* our room */
+img.foodimg-re-roomstyle1.slider-homeclassic,
+img.footimg-lo-roomstyle1.slider-homeclassic {
+  width: 37rem;
+}
+
+.restaurand-left-roomstyle1.classic-home,
+.location-right-roomstyle1.classic-home {
+  background: #323232;
+}
+
+h3.restau-roomstyle1.textbig,
+h3.loca-roomstyle1.textbig {
+  color: #fff;
+}
+
+p.rand-one-roomstyle1.textsmall{
+  color:#fff;
+}
+
+button.more-roomstyle1.homeofclassic {
+  margin-left: auto;
+  margin-right: auto;
+  height: 2.5rem;
+  width: 9rem;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #c19b76;
+  color: #c19b76;
+  background-color: #323232;
+  
+}
+
+button.more-roomstyle1.homeofclassic:hover{
+  color:#fff;
+  border: none;
+  background-color:#c19b76;
+  font-family: 'Playfair Display', serif;
+  transition:all 0.5s;
+}
+
+
+/* ---------our client say------- */
+
+.carousel-caption.d-none.d-md-block.neww {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.item.home-classic {
+  width: 100%;
+  height: 100%;
+}
+
+img.our-room-home-classic {
+  height: 25rem;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #c19b76;
+}
+
+
+h5.text-home-classic {
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+}
+p.clientroom {
+  font-size: 20px;
+}
+
+em.anthor {
+  color: #c19b76;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* ------ourservices------- */
+
+.ourservices {
+padding: 30px;
+}
+img.d-block.w-100.ourclient {
+  height: 450px;
+}
+h3.ourservices-one {
+font-family: 'Playfair Display', serif;
+font-size: 38px;
+line-height: 48px;
+}
+
+p.ourservices-tow {
+font-size: 20px;
+line-height: 28px;
+color: #85858a;
+}
+
+.ourservices-text {
+margin: 0 auto;
+width: 970px;
+height: 170px;
+text-align: center;
+padding: 30px;
+}
+
+img.image-ourservices {
+width: 20.5rem;
+height: 30rem;
+}
+
+.row-rooms {
+display: flex;
+justify-content: center;
+gap: 2rem;
+padding: 20px 0;
+}
+
+h2.text-ourservices {
+position: absolute;
+font-family: 'Playfair Display', serif;
+color: #fff;
+margin-left: 2rem;
+margin-top: 26rem;
+}
+
+/* -----get off---- */
+
+.getoff {
+padding: 40px;
+}
+
+button.buy-getoff {
+display: flex;
+align-content: space-around;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-left: auto;
+margin-right: auto;
+height: 2.5rem;
+width: 9rem;
+text-align: center;
+background-color: #fff;
+color: #c19b76;
+border: 1px solid #c19b76;
+font-family: 'Playfair Display', serif;
+}
+
+button.buy-getoff:hover{
+background-color:#c19b76;
+border:none;
+color:#fff;
+}
+
+h1.getoff-today {
+font-family: 'Playfair Display', serif;
+text-align: center;
+font-size: 35px;
+line-height: 45px;
+}
+/* -------------------------------------------HOME HOTEL------------------------------- */
+/* slider */
+
+button.more.a-homehotel {
+  background: rgb(255 244 244 / 10%);
+  border: 1px solid white;
+  /* background:#4c5860; */
+  color:#fff;
+
+}
+
+button.more.a-homehotel:hover{
+  background-color: #fff;
+  color:#C19B76;
+}
+
+.carousel-caption.d-none.d-md-block.homehotel {
+  margin-bottom: 6rem;
+  text-align: center;
+  opacity: 0;
+  animation: text 2s forwards;
+}
+/* restauran and location */
+.restaurand-homehotel {
+  display: flex;
+  width: 62%;
+  margin: 0 auto;
+}
+
+.location-homehotel {
+  display: flex;
+  width: 62%;
+  margin: 0 auto;
+}
+
+img.footimg-lo-homehotel, img.foodimg-re-homehotel  {
+  width: 471px;
+  height: 520px;
+}
+
+.restaurand-left-homehotel, .location-right-homehotel {
+  padding: 50px;
+}
+
+h3.restau , h3.loca{
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+}
+.tion,.rand {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 25px 0;
+  letter-spacing: 0.5px;
+}
+
+p.rand-one-homehotel, p.rand-two-homehotel ,p.tion-one-homehotel , p.tion-two-homehotel {
+  color: #85858A;
+}
+
+a.btn-pro-homehotel {
+  font-size: 16px;
+  line-height: 16px;
+  color: #C19B76;
+  font-weight: 400;
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+}
+
+a.btn-pro-homehotel:hover{
+  text-decoration: none;
+  color: #C19B76;
+}
+
+  /* ------ourservices------- */
+.row-rooms-homehotel {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 40px 0;
+}
+
+/* -------------------------------------------PAGES LOCATION-------------------------- */
+
+/* -------backgrouf-header */
+
+img.d-block.w-100-location {
+  width: 100%;
+  height: 500px;
+}
+.carousel-caption.d-none.d-md-block.location{
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+
+h2.out-loca {
+  font-size: 50px;
+  line-height: 60px;
+  font-family: 'Playfair Display', serif;
+}
+
+p.tion-location {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+p.more-location {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 5rem;
+}
+
+a.waybackhome {
+  color: #ffb062;
+}
+
+a.waybackhome:hover{
+  color:#fff;
+  text-decoration: none;
+}
+
+/* -----overlay mo backgrouud */
+.gradient-dark-locaton {
+  background-color: rgba(34, 34, 34, 0.45);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*----- beautifull---- */
+
+.content-main-location {
+  text-align: center;
+  width: 60%;
+  margin: 40px AUTO;
+}
+
+p.under-best-location {
+  padding: 30px 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #85858a;
+  margin: 0;
+}
+
+.context-under-location {
+  font-size: 14px;
+  line-height: 28px;
+  color: #85858a;
+  padding: 20px;
+}
+
+.context-under-left, .context-under-right {
+  padding: 20px;
+}
+
+
+.context-under-location {
+  display: flex;
+  font-size: 18px;
+  color: #c19b76;
+}
+
+h2.the-best-location {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+/* ---beautifull beach--- */
+.restaurand-beach {
+display: flex;
+width: 80%;
+margin: 0 auto;
+}
+
+.location-beach {
+display: flex;
+width: 80%;
+margin: 0 auto;
+}
+
+img.footimg-lo-beach, img.foodimg-re-beach  {
+width: 608px;
+height: 520px;
+}
+
+.restaurand-left, .location-right {
+padding: 50px;
+}
+
+h3.restau-beach , h3.loca-beach{
+font-family: 'Playfair Display', serif;
+font-size: 40px;
+}
+.tion-beach,.rand-beach {
+font-size: 14px;
+line-height: 24px;
+margin: 25px 0;
+letter-spacing: 0.5px;
+}
+
+p.rand-one-beach, p.rand-two-beach ,p.tion-one-beach , p.tion-two-beach {
+  color: #c19b76;
+  font-size: 18px;
+}
+
+a.btn-pro-beach {
+  font-size: 16px;
+  line-height: 16px;
+  color: #C19B76;
+  font-weight: 400;
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+}
+
+a.btn-pro-beach:hover{
+  text-decoration: none;
+  color: #C19B76;
+}
+
+
+/* ---------------------------------- PAGES RESTAURAND------------------------ */
+
+/* ---backgroud header */
+
+img.d-block.w-100-restaurand {
+    width: 100%;
+    height: 520px;
+}
+
+.carousel-inner p{
+    color: #fff;
+  
+}
+.carousel-caption.d-none.d-md-block.backgroud {
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+
+h2.out-loca-restaurand {
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Playfair Display', serif;
+}
+
+p.tion-restaurand {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+p.more-restaurand {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 5rem;
+}
+
+a.waybackhome-restaurand {
+    color: #ffb062;
+}
+
+a.waybackhome-restaurand:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+/* -----overlay mo backgrouud */
+.gradient-dark-restaurand{
+  background-color: rgba(34, 34, 34, 0.45);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*-----Tasty dishes and homemade.
+Italian cooking tradition and passion for food---- */
+
+.content-main-restaurand {
+  text-align: center;
+  width: 60%;
+  margin: 40px AUTO;
+}
+
+p.under-best-restaurand {
+  padding: 30px 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #85858a;
+  margin: 0;
+}
+
+.context-under-left-restaurand, .context-under-right-restaurand {
+  padding: 20px;
+}
+
+
+.context-under-restaurand {
+  display: flex;
+  font-size: 18px;
+  color: #c19b76;
+}
+
+h2.the-best-restaurand {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+}
+/* --------beach sea food ----------- */
+
+.Beach-seafood-restaurant{
+  background:url(../image/Beach\ seafood\ restaurant.jpg);
+  background-attachment: fixed;
+}
+.carousel-item.active.restaurand-sea {
+  width: 100%;
+  height: 500px;
+  
+}
+
+.carousel-caption.d-none.d-md-block.restaurand-sea {
+  text-align: center;;
+  margin-bottom: 6rem;
+}
+h2.out-loca-restaurand-sea{
+  font-size: 50px;
+  line-height: 60px;
+  font-family: 'Playfair Display', serif;
+}
+
+p.seafood {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+button.more-restaurand-sea {
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2.5rem;
+  width: 9rem;
+  text-align: center;
+  background-color: rgba(144, 140, 140, 0.45);
+  color: #fff;
+  border: 1px solid #fff;
+  font-family: 'Playfair Display', serif;
+}
+
+button.more-restaurand-sea:hover{
+  color: #c19b76;
+  background-color:#fff;
+}
+
+.carousel-caption.d-none.d-md-block.restaurand-sea.seafood {
+  padding: 30px;
+  margin: 0;
+}
+
+/* ------food----- */
+
+.restaurand-foodsea {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.location-foodsea {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
+img.footimg-lo-foodsea, img.foodimg-re-foodsea  {
+  width: 531px;
+  height: 500px;
+}
+
+.restaurand-left-foodsea, .location-right-foodsea {
+  padding: 50px;
+}
+
+h3.restau-foodsea , h3.loca-foodsea{
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+}
+.tion-foodsea,.rand-foodsea {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 25px 0;
+  letter-spacing: 0.5px;
+}
+
+p.rand-one-foodsea, p.rand-two-foodsea ,p.tion-one-foodsea , p.tion-two-foodsea {
+  color: #85858A;
+}
+
+a.btn-pro-foodsea {
+    font-size: 16px;
+    line-height: 16px;
+    color: #C19B76;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+  }
+  
+  a.btn-pro-foodsea:hover{
+    text-decoration: none;
+    color: #C19B76;
+  }
+  
+/* ---------------------------------------PAGES ACTIVITIES-------------------------- */
+
+
+/* -----header-bgr---- */
+
+img.d-block.w-100-activities{
+    width: 100%;
+    height: 550px;
+}
+
+
+.carousel-caption.d-none.d-md-block.activities {
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+
+h2.out-activities {
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Playfair Display', serif;
+}
+
+p.tion-activities {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+p.more-activities {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 5rem;
+}
+
+a.waybackhome-activities {
+    color: #ffb062;
+}
+
+a.waybackhome-activities:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+/* -----overlay mo backgrouud */
+.gradient-dark-activities {
+  background-color: rgba(34, 34, 34, 0.45);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+ /*------- conten and video------ */
+
+ .content-main-activities {
+  text-align: center;
+  width: 70%;
+  margin: 40px AUTO;
+}
+
+p.under-best-activities {
+  padding: 30px 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #85858a;
+  margin: 0;
+}
+
+/* .context-under {
+  font-size: 14px;
+  line-height: 28px;
+  color: #85858a;
+  padding: 20px;
+} */
+
+.context-under-activities {
+  display: flex;
+  font-size: 18px;
+  color: #c19b76;
+}
+
+img.img-video {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* ---------Differents activities for everyone-------- */
+
+
+.Beach-seafood-restaurant-activities{
+  background:url(../image/skate\ beach.jpg);
+  background-attachment: fixed;
+}
+.carousel-item.active.activities {
+  width: 100%;
+  height: 550px;
+  
+}
+.carousel-caption.d-none.d-md-block.activities {
+  text-align: center;
+  margin-bottom: 10rem;
+}
+p.seafood-activities {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+button.more-activities {
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2.5rem;
+  width: 9rem;
+  text-align: center;
+  background-color: rgba(144, 140, 140, 0.45);
+  color: #fff;
+  border: 1px solid #fff;
+  font-family: 'Playfair Display', serif;
+}
+
+button.more-activities:hover{
+  color: #c19b76;
+  background-color:#fff;
+}
+
+.carousel-caption.d-none.d-md-block.seafood-activities {
+  padding: 30px;
+  margin: 0;
+}
+/* -----sport sea--- */
+
+
+.food-activities {
+  padding: 30px 0;
+}
+
+.restaurand-activities {
+display: flex;
+width: 70%;
+margin: 0 auto;
+}
+
+.location-activities {
+display: flex;
+width: 70%;
+margin: 0 auto;
+}
+
+img.footimg-lo-activities, img.foodimg-re-activities  {
+width: 531px;
+height: 500px;
+}
+
+.restaurand-left-activities, .location-right-activities {
+padding: 50px;
+}
+
+h3.restau-activities ,h3.loca-activities{
+font-family: 'Playfair Display', serif;
+font-size: 40px;
+}
+
+
+.tion-activities,.rand-activities {
+font-size: 14px;
+line-height: 24px;
+margin: 25px 0;
+letter-spacing: 0.5px;
+}
+
+p.rand-one-activities, p.rand-two-activities ,p.tion-one-activities ,p.tion-two-activities {
+color: #85858A;
+}
+
+a.btn-pro-activities {
+  font-size: 16px;
+  line-height: 16px;
+  color: #C19B76;
+  font-weight: 400;
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+}
+
+a.btn-pro-activities:hover{
+  text-decoration: none;
+  color: #C19B76;
+}
+/* ------------------------------------------PAGES SPA--------------------------- */
+
+  /* -----header-bgr---- */
+
+  img.d-block.w-100-spa {
+    width: 100%;
+    height: 600px;
+}
+
+
+.carousel-inner p{
+    color: #fff;
+  
+}
+.carousel-caption.d-none.d-md-block.spa {
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+
+h2.out-loca-spa {
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Playfair Display', serif;
+}
+
+p.tion-spa {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+p.more-spa {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 5rem;
+}
+
+a.waybackhome {
+    color: #ffb062;
+}
+
+a.waybackhome:hover{
+    color:#fff;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+/* -----overlay mo backgrouud */
+.gradient-dark-spa{
+  background-color: rgba(34, 34, 34, 0.45);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+  /*----- Our Luxury spa for your relax moments---- */
+
+  .content-main-spa {
+    text-align: center;
+    width: 60%;
+    margin: 40px AUTO;
+}
+  
+p.under-best-spa {
+    padding: 30px 0;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #85858a;
+    margin: 0;
+}
+
+.context-under-spa{
+    display: flex;
+    font-size: 18px;
+    color: #c19b76;
+}  
+
+.context-under-left-spa, .context-under-right-spa {
+    padding: 20px;
+}
+  
+h2.the-best-spa {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+/* ------------4 image------------- */
+
+.four {
+  width: 71rem;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0;
+}
+
+img.img-spa {
+  height: 25rem;
+  width: 100%;
+}
+
+.row {
+  padding: 20px;
+}
+
+/* hover hien overlay */
+.col-12.col-md-8.spa{
+  position: relative;
+}
+.overlay-spa{
+  position: relative;
+}
+.overlay-spa::before{
+    content: "";
+    background-color: rgba(47, 44, 44, 0.45);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all .4s;
+}
+.overlay-spa:hover::before{
+  opacity: 1 ;
+  transition: all .4s;
+}
+
+
+/* -------Facilities and Equipment------- */
+
+.content-main-spa-equipment {
+
+  background-color: #1f1919;
+  width: 100%;
+  height: 50rem;
+
+}
+
+.context-in-equipment {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.context-under-spa-equipment {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap:4rem;
+  margin-top: 50px;
+}
+
+h2.the-best-spa-equipment {
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+}
+
+p.under-best-spa-equipment {
+  color: #fff;
+  font-size: 19px;
+  line-height: 50px;
+}
+ul.text-left-small-equipment, h3.text-equipment, .stress {
+    color: #a79b9b;
+
+}
+
+li.stress {
+    list-style: none;
+}
+
+ul.text-right-small-equipment {
+  padding: 0;
+}
+a.telephone {
+  color: #c19b76 !important;
+}
+a.telephone:hover{
+  color: #fff !important;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+/* -----------------------------------------PAGES 404 ERROR----------------------------- */
+  /* -----background---- */
+
+  img.d-block.w-100-location.error {
+    width: 100%;
+    height: 900px;
+    margin-bottom: 4px;
+}
+  
+.carousel-inner-error404 p{
+    color: #fff;
+  
+}
+.carousel-caption.d-none.d-md-block.gohome {
+    margin-bottom: 26rem;
+    text-align: center;
+}
+
+
+h2.out-loca-error {
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Playfair Display', serif;
+}
+
+p.tion-error {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+button.more-error {
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2.5rem;
+    width: 9rem;
+    text-align: center;
+    color: #fff;
+    background-color: #c19b76;
+    border: none;
+    
+}
+button.more-error:hover{
+    color: #c19b76;
+    background-color: rgba(144, 140, 140, 0.45);
+    border: 1px solid #c19b76;
+    transition: 0.3s;
+
+  }
+a.returnhome {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+
+}
+
+a.returnhome:hover{
+    color: #c19b76;
+}
+
+/* -----overlay mo backgrouud */
+.gradient-dark-error {
+  background-color: rgba(34, 34, 34, 0.45);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* ------------------------------------------ROOMS STYLE 1---------------------------------- */
+
+  /* -----header-bgr---- */
+
+  img.d-block.w-100-roomstyle1 {
+    width: 100%;
+    height: 550px;
+}
+
+.carousel-inner.roomstyle p{
+    color: #fff;
+  
+}
+.carousel-caption.d-none.d-md-block.roomstyle1 {
+    margin-bottom: 6rem;
+    text-align: center;
+} 
+
+
+h2.out-loca-roomstyle1 {
+    font-size: 75px;
+    line-height: 60px;
+    font-family: 'Playfair Display', serif;
+}
+
+p.tion-roomstyle1 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+p.more-roomstyle1 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 5rem;
+}
+
+a.waybackhome-roomstyle1 {
+    color: #ffb062;
+}
+
+a.waybackhome-roomstyle1:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+/* -----overlay mo backgrouud */
+.gradient-dark-roomstyle1 {
+  background-color: rgba(34, 34, 34, 0.45);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* ----text---- */
+.content-main-roomstyle1 {
+  text-align: center;
+  width: 70%;
+  margin: 40px AUTO;
+}
+
+p.under-best-roomstyle1 {
+  padding: 30px 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #85858a;
+  margin: 0;
+}
+/* ----type room---- */
+
+.food-roomstyle1 {
+  padding: 30px 0;
+}
+.checked {
+    color: #c19b76;
+}
+  
+.restaurand-roomstyle1 {
+    padding: 0;
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+    
+}
+  
+.location-roomstyle1 {
+    padding: 0;
+    display: flex;
+    width: 70%;
+    margin: 40px auto;
+}
+
+.restaurand-roomstyle1:hover{
+    box-shadow: 0px 0px 12px 7px rgba(157, 155, 155, 0.5);
+    transition: all 0.4s;
+
+}
+.location-roomstyle1:hover{
+    box-shadow: 0px 0px 12px 7px rgba(157, 155, 155, 0.5);
+    transition: 0.4s;
+}
+
+
+img.footimg-lo-roomstyle1, img.foodimg-re-roomstyle1  {
+    width: 550px;
+    height: 450px;
+}
+/* hover hien box-shadow va hien lop gia lam mo aanh  */
+.restaurand-right-roomstyle1{
+    position: relative;
+}
+.location-left-roomstyle1{
+    position: relative;
+}
+.restaurand-right-roomstyle1::before{
+    content: "";
+    background-color: rgba(55, 55, 55, 0.45);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all .4s;
+}
+.restaurand-roomstyle1:hover .restaurand-right-roomstyle1::before{
+    opacity: 1;
+    transition: all .4s;
+}
+
+.location-left-roomstyle1::before{
+    content: "";
+    background-color: rgba(55, 55, 55, 0.45);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all .4s;
+}
+.location-roomstyle1:hover .location-left-roomstyle1::before{
+    opacity: 1;
+    transition: all .4s;
+}
+/* ----------- */
+.restaurand-left-roomstyle1, .location-right-roomstyle1 {
+    padding: 50px;
+}
+
+p.with-sea-roomstyle1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #c19b76;
+}
+
+h3.restau-roomstyle1 , h3.loca-roomstyle1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+  
+
+.tion-roomstyle1,.rand-roomstyle1 {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 25px 0;
+    letter-spacing: 0.5px;
+}
+  
+p.rand-one-roomstyle1{
+    color: #85858A;
+    font-size: 18px;
+}
+
+
+button.more-roomstyle1 {
+    margin-left: auto;
+    margin-right: auto;
+    height: 2.5rem;
+    width: 9rem;
+    text-align: center;
+    color: #fff;
+    border: none;
+    background-color:#c19b76;
+    font-family: 'Playfair Display', serif;
+}
+
+button.more-roomstyle1:hover{
+    border: 1px solid #c19b76;
+    color: #c19b76;
+    background-color: #fff;
+    transition:all 0.4s;
+  }
+  
+/* --------------------------------------ROOMS STYLE 2----------------------------- */
+
+/* backgroud header */
+
+
+img.d-block.w-100-roomstyle2 {
+  width: 100%;
+  height: 550px;
+}
+
+.carousel-inner.rooms2 p{
+  color: #fff;
+
+}
+.carousel-caption.d-none.d-md-block.roomstyle2 {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+
+h2.out-loca-roomstyle2 {
+  font-size: 75px;
+  line-height: 60px;
+  font-family: 'Playfair Display', serif;
+}
+
+p.tion-roomstyle2 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+p.more-roomstyle2 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 5rem;
+}
+
+a.waybackhome-roomstyle2 {
+  color: #ffb062;
+}
+
+a.waybackhome-roomstyle2:hover{
+  color:#fff;
+  text-decoration: none;
+}
+
+/*------- text------ */
+
+
+.content-main-roomstyle2 {
+  text-align: center;
+  width: 70%;
+  margin: 40px AUTO;
+}
+
+p.under-best-roomstyle2 {
+  padding: 30px 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #85858a;
+  margin: 0;
+}
+
+/* ------six image---- */
+.content-fluid-roomstyle2 {
+  width: 70rem;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 0;
+}
+
+img.image-roomstyle2 {
+  height: 22rem;
+  width: 100%;
+}
+.row.d-inline-flex.style2 {
+  margin: 0;
+}
+.sologan-roomstyle2 {
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: 19rem;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+
+/* ------------------------------------------------------SINGLE ROOM 1------------------------------------- */
+
+
+
+
+
+/* ------------------------------------------------------SINGLE ROOM 2------------------------------------- */
+
+/* backgroud header */
+
+img.d-block.w-100-singleroom2 {
+  width: 100%;
+  height: 500px;
+}
+.carousel-caption.d-none.d-md-block.singleroom2{
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+
+h2.out-loca-singleroom2 {
+  font-size: 50px;
+  line-height: 60px;
+  font-family: 'Playfair Display', serif;
+}
+
+p.tion-singleroom2 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+p.more-singleroom2 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 5rem;
+}
+
+a.waybackhome-singleroom2 {
+  color: #ffb062;
+}
+
+a.waybackhome-singleroom2:hover{
+  color:#fff;
+  text-decoration: none;
+}
+
+/* -----overlay mo backgrouud */
+.gradient-dark--singleroom2 {
+  background-color: rgba(34, 34, 34, 0.45);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Our Superior Room */
+
+.context-under-singleroom2 {
+  display: flex;
+  gap: 4rem;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 28px;
+  color: #85858a;
+}
+
+h2.the-best-singleroom2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  padding: 50px;
+}
+
+/* slider */
+
+.item {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #c19b76;
+}
+/* -------Facilities and Equipment------- */
+
+.content-main-spa-equipment {
+
+  background-color: #1f1919;
+  width: 100%;
+  height: 50rem;
+
+}
+
+.context-in-equipment {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.context-under-spa-equipment {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap:4rem;
+  margin-top: 50px;
+}
+
+h2.the-best-spa-equipment {
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+}
+
+p.under-best-spa-equipment {
+  color: #fff;
+  font-size: 19px;
+  line-height: 50px;
+}
+ul.text-left-small-equipment, h3.text-equipment, .stress {
+    color: #d1d2d3;
+
+}
+
+li.stress {
+    list-style: none;
+    font-size: 24px;
+}
+
+ul.text-right-small-equipment {
+  padding: 0;
+}
+
+h3.text-equipment {
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+}
+
+button.more-singleroom {
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2.5rem;
+  width: 15rem;
+  text-align: center;
+  color: #c19b76;
+  background-color: rgba(58, 55, 56, 0.4);
+  border: 1px solid #c19b76;
+  
+}
+button.more-singleroom:hover{
+  border: none;
+  color: #fff;
+  background-color: #c19b76;
+  transition: 0.3s;
+
+}
+a.returnroom {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+
+}
+
+a.returnroom:hover{
+  color: #c19b76;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+/* ---------------------------------------GALLERY------------------------- */
+/* ---------------------------------------BLOG CLASSIC------------------------- */
+/* ---------------------------------------BLOG IMAGE POST------------------------- */
+/* ---------------------------------------BLOG SILDER POST------------------------- */
+/* ---------------------------------------BLOG VIDEO POST------------------------- */
+/* ---------------------------------------ELEMENT------------------------- */
+
+/* ---------------------------------------CONTACT------------------------- */
+/* .contact {
+  display: flex;
+  margin: 20px auto;
+} */
+
+p.contact-big2 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #85858a;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.contact-small1 {
+  font-size: 14px;
+  line-height: 24px;
+  color: #85858a;
+}
+
+.contact-small1 {
+  font-size: 14px;
+  line-height: 24px;
+  color: #85858a;
+}
+
+.contact-small2 {
+  padding: 20px 0;
+}
+
+p.contactphone {
+  margin: 0;
+}
+
+a.con {
+  font-size: 16px;
+  line-height: 26px;
+  color: #000 !important;
+  font-weight: 600;
+}
+
+a.con1 {
+  font-size: 16px;
+  line-height: 26px;
+  color: #85858a !important;
+}
+a.telephone.tact {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+a.telephone.tact:hover{
+  color:#000 !important;
+}
+
+/*------ map----- */
+
+/* ---------------------------------------------------------------------------- */
+
+/* ------footer--- */
+.footer-head p{
+  opacity: 0;
+}
+
+#footer{
+  width:100%;
+  background-color:#1c1c1c;
+  height: 250px;
+  color:#FFF;
+}
+.footer-between {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.footer-between-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12rem;
+}
+
+.weather-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.connect-icon {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+#footer h1{
+  font-family: 'Playfair Display', serif;
+  line-height: 26px;
+  font-size: 26px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  color:#d1d2d3;
+}
+
+.tem {
+  display: flex;
+  align-items: stretch;
+}
+.tem p{
+  font-size: 80px;
+  font-family: 'Playfair Display', serif;
+}
+
+svg.icon.icon-tabler.icon-tabler-temperature-celsius {
+  margin-top: -0.5rem;
+}
+
+.facebook ,.Twiter , .Google, .instagram{
+  padding: 5px;
+  background-color: #323232;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.facebook:hover{
+  background-color:#c19b76;
+}
+
+.Twiter:hover{
+  background-color:#c19b76;
+}
+
+.Google:hover{
+  background-color:#c19b76;
+}
+
+.instagram:hover{
+  background-color: #c19b76;
+}
+
+svg.bi.bi-cloud-sun {
+  height: 65px;
+  width: 55px;
+}
+
+
+input.form-control {
+  background-color: #323232;
+  BORDER: NONE;
+  border-radius: 0;
+
+}
+
+#button-addon2{
+  background-color: #C19B76;
+  color: #fff;
+  border:none;
+  border-radius: 0;
+}
+
+#button-addon2:hover{
+  background-color: #323232;
+  
+}
+
+.footer-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 15px 0;
+  background-color:#000;
+  /* gap:9rem; */
+  margin-left: -2rem;
+  margin-top:1rem;
+  
+}
+
+ul.end {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+
+.footer-end-right {
+  display: flex;
+  
+}
+
+a.menu-footer {
+  color: #fff;
+  text-decoration-line: none;
+  font-family: 'Playfair Display', serif;
+}
+
+
+a.menu-footer:hover{
+  text-decoration: none;
+  color:#C19B76;
+  
+}
+
+
+a.theme{
+  font-weight: 1;
+  cursor: pointer;
+}
+
+a.theme:hover{
+  color:#C19B76;
+}
