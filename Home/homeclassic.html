@@ -31,6 +31,11 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="../index.html"><img class="logo" src="../image/logo@2x.png" alt="logo"></a>
+                  <div class="toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                  </div>
                   <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                       
@@ -120,7 +125,7 @@
           <div class="carousel-item active">
             <div class="gradient-dark"></div>
             <img class="d-block w-100" src="../image/slider1.jpg" alt="First slide">
-            <div class="carousel-caption d-none d-md-block homeclassic">
+            <div class="carousel-caption d-md-block homeclassic">
               <h5>Great holiday <br> for all the family</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Veniam, facilis.</p>
@@ -130,7 +135,7 @@
           <div class="carousel-item">
             <div class="gradient-dark"></div>
             <img class="d-block w-100" src="../image/slider2.jpg" alt="Second slide">
-            <div class="carousel-caption d-none d-md-block homeclassic">
+            <div class="carousel-caption d-md-block homeclassic">
               <h5>Viride <br> luxury hotels</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Veniam, facilis.</p>
@@ -141,7 +146,7 @@
     </div>
   </div>
 
-
+<!-- content -->
     <div id="content">
       <div class="book-now">
             <div class="checkinfo">
@@ -239,7 +244,7 @@
     </div>
   </div>
   <div class="slide-and-text">
-    <div class="owl-carousel owl-theme">
+    <div class="slide__st__rooms owl-carousel owl-theme">
       <div class="restaurand-roomstyle1">
           <div class="restaurand-left-roomstyle1 classic-home">
                 <div class="Star">
@@ -295,7 +300,7 @@
       <div class="owl-carousel owl-theme">
         <div class="item home-classic">
           <img class="our-room-home-classic" src="../image/homeclassic-Our Cients Say.jpg" alt="image">
-          <div class="carousel-caption d-none d-md-block neww">
+          <div class="carousel-caption d-md-block neww">
             <h5 class="text-home-classic">Our Cients Say</h5>
             <p class="clientroom">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum reprehenderit earum veritatis, libero sunt illum."</p>
             <em class="anthor">Alessia Simpson</em>
@@ -303,7 +308,7 @@
         </div>
         <div class="item home-classic">
           <img class="our-room-home-classic" src="../image/homeclassic-Our Cients Say.jpg" alt="image">
-          <div class="carousel-caption d-none d-md-block neww">
+          <div class="carousel-caption d-md-block neww">
             <h5 class="text-home-classic">Our Cients Say</h5>
             <p class="clientroom">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum reprehenderit earum veritatis, libero sunt illum."</p>
             <em class="anthor">Joe Doe</em>
@@ -482,6 +487,11 @@
                 $('.navbar-nav').removeClass('test');
             }
         })
+        $(document).ready(function() {
+          $('.toggle').click(function() {
+              $('ul.navbar-nav').slideToggle();
+          });
+        })
 
         <!-- slider -->
         var owl = $('.owl-carousel');
@@ -490,7 +500,7 @@
             loop:true,
             margin:10,
             autoplay:true,
-            autoplayTimeout:6000,
+            autoplayTimeout:80000,
             autoplayHoverPause:true
         });
         $('.play').on('click',function(){
@@ -500,6 +510,29 @@
             owl.trigger('stop.owl.autoplay')
         })
 
+        $(document).ready(function() {
+          $('.slide__st__rooms').owlCarousel({
+              loop:true,
+              margin: 10,
+              nav:true,
+              dots: false,
+              autoplay: true,
+              autoplayTimeout: 4000,
+              smartSpeed: 1000,
+              navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+              responsive:{
+                  0:{
+                      items: 1
+                  },
+                  991:{
+                      items: 2
+                  },
+                  1300:{
+                      items: 2
+                  }
+              }
+          })
+      })
     </script>
 
     <!-- muon slider tu chay thi thwm code vao sau margin 10 
