@@ -2448,6 +2448,263 @@ a.btn-pro-beach:hover{
   text-decoration: none;
   color: #C19B76;
 }
+/* ------------reponsive------------ */
+@media  (min-width: 320px) and (max-width:374px){
+  .carousel-caption.d-md-block.location {
+    display: flex;
+    flex-direction: column;
+    margin-left: -3rem;
+    margin-bottom: 4rem;
+}
+  h2.out-loca {
+    font-size: 28px;
+  }
+  p.tion-location {
+    font-size: 14px;
+}
+p.more-location {
+  font-size: 14px;
+  }
+/* content */
+
+  .content-main-location {
+    width: 90%;
+  }
+  .context-under-location {
+    display: flex;
+    font-size: 14px;
+    color: #85858a;
+    gap: 2rem;
+    flex-direction: column;
+  }
+  /* restaurand */
+  .food {
+    padding-top: 40px;
+    background: #f3f3f3;
+  }
+  .restaurand-beach {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items:center;
+    }
+    .location-beach {
+    flex-direction: column-reverse;
+    align-items:center;
+
+    }
+
+    img.footimg-lo-beach, img.foodimg-re-beach {
+      width: 243px;
+      height: 400px;
+  }
+  p.rand-one-beach, p.rand-two-beach, p.tion-one-beach, p.tion-two-beach {
+    color: #85858a;
+    font-size: 14px;
+  }
+  
+}
+/* ----------------------------------------------- */
+@media (min-width:375px) and (max-width:413px){
+  .carousel-caption.d-md-block.location {
+    display: flex;
+    flex-direction: column;
+    margin-left: -3.5rem;
+    margin-bottom: 4rem;
+}
+  h2.out-loca {
+    font-size: 35px;
+  }
+  p.tion-location {
+    font-size: 14px;
+}
+p.more-location {
+  font-size: 14px;
+  }
+/* content */
+
+  .content-main-location {
+    width: 90%;
+  }
+  .context-under-location {
+    display: flex;
+    font-size: 14px;
+    color: #85858a;
+    gap: 2rem;
+    flex-direction: column;
+  }
+  /* restaurand */
+  .food {
+    padding-top: 40px;
+    background: #f3f3f3;
+  }
+  .restaurand-beach {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items:center;
+    }
+    .location-beach {
+    flex-direction: column-reverse;
+    align-items:center;
+
+    }
+
+  img.footimg-lo-beach, img.foodimg-re-beach {
+    width: 287px;
+    height: 430px;
+  }
+  p.rand-one-beach, p.rand-two-beach, p.tion-one-beach, p.tion-two-beach {
+    color: #85858a;
+    font-size: 14px;
+  }
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:414px) and (max-width:599px){
+  h2.out-loca {
+    font-size: 35px;
+  }
+  p.tion-location {
+    font-size: 14px;
+}
+p.more-location {
+  font-size: 14px;
+  }
+/* content */
+
+  .content-main-location {
+    width: 90%;
+  }
+  .context-under-location {
+    display: flex;
+    font-size: 14px;
+    color: #85858a;
+    gap: 2rem;
+    flex-direction: column;
+  }
+  /* restaurand */
+  .food {
+    padding-top: 40px;
+    background: #f3f3f3;
+  }
+  .restaurand-beach {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items:center;
+    }
+    .location-beach {
+    flex-direction: column-reverse;
+    align-items:center;
+
+    }
+
+  img.footimg-lo-beach, img.foodimg-re-beach {
+    width: 318px;
+    height: 430px;
+}
+    p.rand-one-beach, p.rand-two-beach, p.tion-one-beach, p.tion-two-beach {
+      color: #85858a;
+      font-size: 14px;
+  }
+}
+/* ----------------------------------------------- */
+
+
+@media (min-width:600px) and (max-width:767px){
+  .carousel-caption.d-md-block.location {
+    display: flex;
+    flex-direction: column;
+    margin-left: -4rem;
+    margin-bottom: 4rem;
+  }
+/* content */
+  .content-main-location {
+    width: 90%;
+  }
+  .context-under-location {
+    display: flex;
+    gap: 2rem;
+    font-size: 15px;
+    color: #85858a;
+    flex-direction: column;
+  }
+  .restaurand-beach {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items:center;
+  }
+  .location-beach {
+  flex-direction: column-reverse;
+  align-items:center;
+
+  }
+
+  img.footimg-lo-beach, img.foodimg-re-beach {
+    width: 522px;
+    height: 520px;
+}
+}
+/* ----------------------------------------------- */
+
+@media (min-width:768px) and (max-width:1023px){
+  .carousel-caption.d-md-block.location {
+    text-align: center;
+    margin-left: 0;
+  }
+  /* content */
+  .content-main-location {
+    width: 80%;
+  }
+  .context-under-location {
+    display: flex;
+    font-size: 15px;
+    color: #85858a;
+    gap: 2rem;
+    flex-direction: column;
+  }
+  .restaurand-beach {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.location-beach {
+  flex-direction: column-reverse;
+}
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:1024px) and (max-width:1203px){
+  .carousel-caption.d-md-block.location {
+    text-align: center;
+    margin-left: -6rem;
+  }
+/* content main */
+  .content-main-location {
+    text-align: center;
+    width: 90%;
+  }
+  .restaurand-beach,
+  .location-beach {
+    width: 95%;
+  }
+  img.footimg-lo-beach,
+  img.foodimg-re-beach {
+    width: 478px;
+    height: 592px;
+  }
+
+}
+/* ----------------------------------------------- */
 
 
 /* ---------------------------------- PAGES RESTAURAND------------------------ */
