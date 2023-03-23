@@ -1954,7 +1954,7 @@ line-height: 45px;
     font-size: 38px;
   }
  
-  /* img */
+  /* img restaurand */
   .restaurand {
     flex-direction: column;
   }
@@ -2142,6 +2142,164 @@ a.btn-pro-homehotel:hover{
     gap: 2rem;
     padding: 40px 0;
 }
+/* ---------------reposive--------- */
+
+@media  (min-width: 320px) and (max-width:374px){
+  .restaurand-homehotel{
+    flex-direction: column ;
+    width: 100%;
+  }
+  .location-homehotel{
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  img.footimg-lo-homehotel, img.foodimg-re-homehotel {
+    width: 302px;
+    height: 360px;
+  }
+  /*  */
+  .row-rooms-homehotel{
+    max-width: 300px;
+    flex-direction: column;
+    align-items: center;
+  }
+  img.image-ourservices.hotel {
+    width: 16rem;
+    height: 16rem;
+  }
+  
+}
+/* ----------------------------------------------- */
+@media (min-width:375px) and (max-width:413px){
+    /* rétaurand */
+.restaurand-homehotel{
+  flex-direction: column ;
+  width: 100%;
+}
+.location-homehotel{
+  flex-direction: column-reverse;
+  width: 100%;
+}
+img.footimg-lo-homehotel, img.foodimg-re-homehotel {
+  width: 358px;
+  height: 400px;
+}
+/*  */
+.row-rooms-homehotel{
+  max-width: 400px;
+  flex-direction: column;
+  align-items: center;
+}
+img.image-ourservices.hotel {
+  width: 20rem;
+  height: 19rem;
+}
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:414px) and (max-width:599px){
+  /* rétaurand */
+.restaurand-homehotel{
+  flex-direction: column ;
+  width: 100%;
+}
+.location-homehotel{
+  flex-direction: column-reverse;
+  width: 100%;
+}
+img.footimg-lo-homehotel, img.foodimg-re-homehotel {
+  width: 396px;
+  height: 450px;
+}
+/*  */
+.row-rooms-homehotel{
+  max-width: 540px;
+  flex-direction: column;
+  align-items: center;
+}
+img.image-ourservices.hotel {
+  width: 24rem;
+  height: 19rem;
+}
+}
+/* ----------------------------------------------- */
+
+
+@media (min-width:600px) and (max-width:767px){
+  .context-under {
+    font-size: 15px;
+    text-align: center;
+}
+/* rétaurand */
+.restaurand-homehotel{
+  flex-direction: column ;
+  width: 80%;
+}
+.location-homehotel{
+  flex-direction: column-reverse;
+  width: 80%;
+}
+/*  */
+.row-rooms-homehotel{
+  max-width: 600px;
+  flex-direction: column;
+  align-items: center;
+}
+img.image-ourservices.hotel {
+  width: 29.4rem;
+  height: 30rem;
+}
+}
+/* ----------------------------------------------- */
+
+@media (min-width:768px) and (max-width:1023px){
+  .restaurand-homehotel{
+    flex-direction: column ;
+  }
+  .location-homehotel{
+    flex-direction: column-reverse;
+  }
+/*  */
+  .row-rooms-homehotel{
+    max-width: 750px;
+    flex-direction: column;
+    align-items:center
+  }
+  img.image-ourservices.hotel {
+    width: 43.8rem;
+    height: 30rem;
+  }
+  /* footer */
+  .footer-end {
+    padding: 15px 90px !important;
+}
+}
+/* ----------------------------------------------- */
+
+@media (min-width:1024px) and (max-width:1203px){
+  .restaurand-homehotel,
+  .location-homehotel {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  }
+  img.footimg-lo-homehotel, img.foodimg-re-homehotel {
+    width: 454px;
+    height: 545px;
+  }
+  /* .row-rooms-homehotel {
+    width: 95%;
+  } */
+  .row-rooms-homehotel {
+    display: flex;
+    padding: 40px 0;
+    gap:0;
+    justify-content: space-evenly !important;
+}
+}
+/* ----------------------------------------------- */
+
 
 /* -------------------------------------------PAGES LOCATION-------------------------- */
 
