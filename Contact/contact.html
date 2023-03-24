@@ -36,6 +36,11 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="../index.html"><img class="logo" src="../image/logo@2x.png" alt="logo"></a>
+                  <div class="toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                  </div>
                   <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                       
@@ -119,7 +124,7 @@
               <div class="carousel-item active">
                 <div class="gradient-dark--singleroom2"></div>
                 <img class="d-block w-100-singleroom2" src="../image/contact.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block singleroom2">
+                <div class="carousel-caption d-md-block singleroom2">
                     <h2 class="out-loca-singleroom2">Contact</h2>
                     <p class="tion-singleroom2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde veniam aperiam rerum quis atque, illum.</p>
                     <p class="more-singleroom2"><a class="waybackhome-singleroom2" href="../index.html">Home</a> / Contact </p>
@@ -133,7 +138,7 @@
     <div class="contact">
       <div class="container textcontact">
         <div class="row allcontact">
-          <div class="col infocontact1">
+          <div class="col-lg-6 infocontact1">
             <div class="contacttext">
               <div class="contactbig">
                 <h2 class="contact-big1">Get in touch</h2>
@@ -149,7 +154,7 @@
               </div>
             </div>
           </div>
-          <div class="col infocontact2">
+          <div class="col-lg-6 infocontact2">
             <div class="contactbuttun">
               <!-- can chinh sua -->
               <div class="input-group flex-nowrap">
@@ -180,10 +185,13 @@
             </div>
           </div>
         </div>
+      </div>
     </div>
 <!-- map -->
     <div id="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1940.4356575318361!2d105.83482427150246!3d21.03685552826044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135aba15ec15d17%3A0x620e85c2cfe14d4c!2zTMSDbmcgQ2jhu6cgdOG7i2NoIEjhu5MgQ2jDrSBNaW5o!5e1!3m2!1svi!2s!4v1679239013521!5m2!1svi!2s" width="1519" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="google-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.9019792900463!2d105.83345964043089!3d21.03660770494888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135aba15ec15d17%3A0x620e85c2cfe14d4c!2zTMSDbmcgQ2jhu6cgdOG7i2NoIEjhu5MgQ2jDrSBNaW5o!5e0!3m2!1svi!2s!4v1679644295469!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </div>
 
       
@@ -286,6 +294,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
@@ -305,6 +314,11 @@
             else {
                 $('.navbar-nav').removeClass('test');
             }
+        })
+        $(document).ready(function() {
+          $('.toggle').click(function() {
+              $('ul.navbar-nav').slideToggle();
+          });
         })
     </script>
 </body>

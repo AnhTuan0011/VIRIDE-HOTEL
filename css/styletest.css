@@ -2482,6 +2482,10 @@ p.more-location {
     padding-top: 40px;
     background: #f3f3f3;
   }
+  .restaurand-left,
+  .location-right {
+    background-color: #fff;
+  }
   .restaurand-beach {
     display: flex;
     width: 80%;
@@ -2539,6 +2543,10 @@ p.more-location {
     padding-top: 40px;
     background: #f3f3f3;
   }
+  .restaurand-left,
+  .location-right {
+    background-color: #fff;
+  }
   .restaurand-beach {
     display: flex;
     width: 80%;
@@ -2591,6 +2599,10 @@ p.more-location {
     padding-top: 40px;
     background: #f3f3f3;
   }
+  .restaurand-left,
+  .location-right {
+    background-color: #fff;
+  }
   .restaurand-beach {
     display: flex;
     width: 80%;
@@ -2634,9 +2646,22 @@ p.more-location {
     color: #85858a;
     flex-direction: column;
   }
+  /* restaurand */
+  .food {
+    /* padding-top: 40px; */
+    background: #f3f3f3;
+  }
+  .restaurand-left,
+  .location-right {
+    background-color: #fff;
+  }
+  p.rand-one-beach, p.rand-two-beach, p.tion-one-beach, p.tion-two-beach {
+    color: #85858a;
+    font-size: 15px;
+  }
   .restaurand-beach {
     display: flex;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     flex-direction: column;
     align-items:center;
@@ -2644,11 +2669,9 @@ p.more-location {
   .location-beach {
   flex-direction: column-reverse;
   align-items:center;
-
   }
-
   img.footimg-lo-beach, img.foodimg-re-beach {
-    width: 522px;
+    width: 466px;
     height: 520px;
 }
 }
@@ -2670,6 +2693,19 @@ p.more-location {
     gap: 2rem;
     flex-direction: column;
   }
+  /* restaurand */
+  .restaurand-left,
+  .location-right {
+    background-color: #fff;
+  }
+  p.rand-one-beach, p.rand-two-beach, p.tion-one-beach, p.tion-two-beach {
+    color: #85858a;
+    /* font-size: 15px; */
+  }
+  .restaurand-left,
+  .location-right {
+    background-color: #fff;
+  }
   .restaurand-beach {
     display: flex;
     width: 80%;
@@ -2679,8 +2715,13 @@ p.more-location {
 .location-beach {
   flex-direction: column-reverse;
 }
-
+  img.footimg-lo-beach, img.foodimg-re-beach {
+    width: 602px;
+    height: 520px;
 }
+}
+
+
 /* ----------------------------------------------- */
 
 @media (min-width:1024px) and (max-width:1203px){
@@ -2905,6 +2946,386 @@ a.btn-pro-foodsea {
     text-decoration: none;
     color: #C19B76;
   }
+
+/* -----------responsive---------- */
+@media  (min-width: 320px) and (max-width:374px){
+  img.d-block.w-100-restaurand {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+.carousel-caption.d-md-block.backgroud {
+  text-align: center;
+  margin-bottom: 0;
+}
+.content-main-restaurand {
+  width: 80%;
+}
+h2.out-loca-restaurand {
+  font-size: 35px;
+}
+p.tion-restaurand {
+  font-size: 15px;
+}
+p.more-restaurand {
+  padding-top: 90px;
+}
+.content-main-restaurand {
+  width: 85%;
+}
+/* Tasty dishes and homemade. */
+  .context-under-restaurand {
+    display: flex;
+    gap: 2rem;
+    font-size: 14px !important;
+    flex-direction: column;
+}
+  .context-under-restaurand {
+    color: #85858a;
+    font-size: 15px;
+  }
+/* beach */
+  .Beach-seafood-restaurant {
+    background-size: 155% 100%;
+    height: 39rem;
+  }
+  .carousel-item.active.restaurand-sea {
+    width: 100%;
+    height: 39rem;
+}
+  .carousel-caption.d-md-block.restaurand-sea {
+    text-align: center;
+    margin-bottom: 0;
+}
+  h2.out-loca-restaurand-sea {
+    font-size: 35px;
+  }
+  p.seafood {
+    font-size: 13px;
+    padding: 30px 0;
+    line-height: 26px;
+  }
+/* retauran , location */
+
+  .food {
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .restaurand-foodsea,
+  .location-foodsea {
+    width: 100%;
+  }
+  .restaurand-left-foodsea, .location-right-foodsea {
+    background-color: #fff;
+  }
+  .restaurand-foodsea {
+    flex-direction: column;
+  }
+  .location-foodsea {
+    flex-direction: column-reverse;
+  }
+  img.footimg-lo-foodsea, img.foodimg-re-foodsea {
+    width: 303px;
+    height: 390px;
+}
+  
+}
+/* ----------------------------------------------- */
+@media (min-width:375px) and (max-width:413px){
+  img.d-block.w-100-restaurand {
+    width: 100%;
+    height: 646px;
+    object-fit: cover;
+  }
+  .carousel-caption.d-md-block.backgroud {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  h2.out-loca-restaurand {
+    font-size: 45px;
+  }
+  p.tion-restaurand {
+    font-size: 15px;
+  }
+  .content-main-restaurand {
+    width: 80%;
+  }
+  p.more-restaurand {
+    padding-top: 90px;
+  }
+  .content-main-restaurand {
+    width: 85%;
+  }
+/* Tasty dishes and homemade. */
+  .context-under-restaurand {
+    display: flex;
+    gap: 2rem;
+    font-size: 14px !important;
+    flex-direction: column;
+}
+  .context-under-restaurand {
+    color: #85858a;
+    font-size: 15px;
+  }
+/* beach */
+  .Beach-seafood-restaurant {
+    background-size: 140% 100%;
+  }
+  .carousel-caption.d-md-block.restaurand-sea {
+    text-align: center;
+    margin-bottom: 0;
+}
+  h2.out-loca-restaurand-sea {
+    font-size: 35px;
+  }
+  p.seafood {
+    font-size: 13px;
+    padding: 30px 0;
+    line-height: 26px;
+  }
+/* retauran , location */
+
+  .food {
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .restaurand-foodsea,
+  .location-foodsea {
+    width: 100%;
+  }
+  .restaurand-left-foodsea, .location-right-foodsea {
+    background-color: #fff;
+  }
+  .restaurand-foodsea {
+    flex-direction: column;
+  }
+  .location-foodsea {
+    flex-direction: column-reverse;
+  }
+  img.footimg-lo-foodsea, img.foodimg-re-foodsea {
+    width: 358px;
+    height: 430px;
+}
+}
+/* ----------------------------------------------- */
+
+@media (min-width:414px) and (max-width:599px){
+  img.d-block.w-100-restaurand {
+    width: 100%;
+    height: 646px;
+    object-fit: cover;
+}
+.carousel-caption.d-md-block.backgroud {
+  text-align: center;
+  margin-bottom: 0;
+}
+p.more-restaurand {
+  padding-top: 90px;
+}
+.content-main-restaurand {
+  width: 85%;
+}
+/* Tasty dishes and homemade. */
+  .context-under-restaurand {
+    display: flex;
+    gap: 2rem;
+    font-size: 14px !important;
+    flex-direction: column;
+}
+  .context-under-restaurand {
+    color: #85858a;
+    font-size: 15px;
+  }
+/* beach */
+  .Beach-seafood-restaurant {
+    background-size: 140% 100%;
+  }
+  .carousel-caption.d-md-block.restaurand-sea {
+    text-align: center;
+    margin-bottom: 0;
+}
+  h2.out-loca-restaurand-sea {
+    font-size: 35px;
+  }
+  p.seafood {
+    font-size: 13px;
+    padding: 30px 0;
+    line-height: 26px;
+  }
+/* retauran , location */
+
+  .food {
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .restaurand-foodsea,
+  .location-foodsea {
+    width: 100%;
+  }
+  .restaurand-left-foodsea, .location-right-foodsea {
+    background-color: #fff;
+  }
+  .restaurand-foodsea {
+    flex-direction: column;
+  }
+  .location-foodsea {
+    flex-direction: column-reverse;
+  }
+  img.footimg-lo-foodsea, img.foodimg-re-foodsea {
+    width: 397px;
+    height: 430px;
+}
+
+
+}
+/* ----------------------------------------------- */
+
+
+@media (min-width:600px) and (max-width:767px){
+  img.d-block.w-100-restaurand {
+    width: 100%;
+    height: 520px;
+    object-fit: unset;
+}
+  .content-main-restaurand {
+    width: 85%;
+  }
+/* Tasty dishes and homemade. */
+    .context-under-restaurand {
+      display: flex;
+      gap: 2rem;
+      font-size: 14px !important;
+      flex-direction: column;
+  }
+    .context-under-restaurand {
+      color: #85858a;
+      font-size: 15px;
+    }
+ /* beach */
+    .Beach-seafood-restaurant {
+      background-size: 140% 100%;
+    }
+    .carousel-caption.d-md-block.restaurand-sea {
+      text-align: center;
+      margin-bottom: 0;
+  }
+    h2.out-loca-restaurand-sea {
+      font-size: 35px;
+    }
+    p.seafood {
+      font-size: 13px;
+      padding: 30px 0;
+      line-height: 26px;
+    }
+/* retauran , location */
+  
+    .food {
+      padding: 50px 0;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    .restaurand-left-foodsea, .location-right-foodsea {
+      background-color: #fff;
+    }
+    .restaurand-foodsea {
+      flex-direction: column;
+    }
+    .location-foodsea {
+      flex-direction: column-reverse;
+    }
+    img.footimg-lo-foodsea, img.foodimg-re-foodsea {
+      width: 410px;
+      height: 522px;
+  }
+  
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:768px) and (max-width:1023px){
+  /* Tasty dishes and homemade. */
+  .context-under-restaurand {
+    display: flex;
+    gap: 2rem;
+    font-size: 13px !important;
+    flex-direction: column;
+}
+  .context-under-restaurand {
+    color: #85858a;
+    font-size: 15px;
+  }
+/* beach */
+  .Beach-seafood-restaurant {
+    background-size: 125% 100%;
+  }
+  h2.out-loca-restaurand-sea {
+    font-size: 45px;
+  }
+  p.seafood {
+    font-size: 13px;
+    padding: 30px 0;
+    line-height: 26px;
+  }
+/* retauran , location */
+
+  .food {
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .restaurand-left-foodsea, .location-right-foodsea {
+    background-color: #fff;
+  }
+  .restaurand-foodsea {
+    flex-direction: column;
+  }
+  .location-foodsea {
+    flex-direction: column-reverse;
+  }
+  img.footimg-lo-foodsea, img.foodimg-re-foodsea {
+    width: 526px;
+    height: 544px;
+}
+
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:1024px) and (max-width:1203px){
+/* Tasty dishes and homemade. */
+  .content-main-restaurand {
+    width: 80%;
+  }
+  .context-under-restaurand {
+    color: #85858a;
+    font-size: 15px;
+  }
+/* beach */
+  .Beach-seafood-restaurant {
+    background-size: 106% 57%;
+  }
+/* retauran , location */
+
+  .food {
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .restaurand-left-foodsea, .location-right-foodsea {
+    background-color: #fff;
+  }
+  .restaurand-foodsea,
+  .location-foodsea {
+    width: 90%;
+  }
+  img.footimg-lo-foodsea, img.foodimg-re-foodsea {
+    width: 454px;
+    height: 544px;
+  }
+
+}
+/* ----------------------------------------------- */
+
   
 /* ---------------------------------------PAGES ACTIVITIES-------------------------- */
 
@@ -3102,6 +3523,279 @@ a.btn-pro-activities:hover{
   text-decoration: none;
   color: #C19B76;
 }
+/* -------------------reponsive------------------------------ */
+
+@media  (min-width: 320px) and (max-width:374px){
+  /* header */
+  h2.out-activities {
+    font-size: 35px;
+  }
+  p.tion-activities {
+    font-size: 16px;
+  }
+
+/* Differents activities for everyone */
+    
+      .Beach-seafood-restaurant-activities {
+        background-size: 100% 100%;
+        height: 40rem;
+    }
+      .carousel-item.active.activities {
+        width: 100%;
+        height: 40rem;
+    }
+    h2.out-loca {
+        font-size: 35px;
+        line-height: 50px;
+      } 
+      p.seafood-activities {
+        padding: 22px 0;
+    }
+    .carousel-caption.d-md-block.activities {
+      margin-bottom: 0 !important;
+    }
+    /* basskidball */
+    .food-activities {
+      background: rgba(0, 0, 0, 0.125);
+      padding: 50px 0;
+    }
+    .restaurand-left-activities, .location-right-activities {
+      background: #fff;
+    }
+    
+    .restaurand-activities {
+        width: 100%;
+        flex-direction: column;
+    }
+    .location-activities {
+      width: 100%;
+      flex-direction: column-reverse;
+    }
+    
+    img.footimg-lo-activities, img.foodimg-re-activities {
+      width: 303px;
+      height: 444px;
+  
+    }
+}
+/* ----------------------------------------------- */
+@media (min-width:375px) and (max-width:413px){
+/* header */
+  h2.out-activities {
+    font-size: 35px;
+  }
+  p.tion-activities {
+    font-size: 16px;
+  }
+
+/* Differents activities for everyone */
+    
+      .Beach-seafood-restaurant-activities {
+        background-size: 100% 100%;
+        height: 35rem;
+    }
+      .carousel-item.active.activities {
+        width: 100%;
+        height: 35rem;
+    }
+    h2.out-loca {
+        font-size: 35px;
+        line-height: 50px;
+      } 
+      p.seafood-activities {
+        padding: 22px 0;
+    }
+    .carousel-caption.d-md-block.activities {
+      margin-bottom: 0 !important;
+    }
+    /* basskidball */
+    .food-activities {
+      background: rgba(0, 0, 0, 0.125);
+      padding: 50px 0;
+    }
+    .restaurand-left-activities, .location-right-activities {
+      background: #fff;
+    }
+    
+    .restaurand-activities {
+        width: 100%;
+        flex-direction: column;
+    }
+    .location-activities {
+      width: 100%;
+      flex-direction: column-reverse;
+    }
+    
+    img.footimg-lo-activities, img.foodimg-re-activities {
+      width: 357px;
+      height: 460px;
+  
+    }
+    
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:414px) and (max-width:599px){
+    /* Differents activities for everyone */
+    
+    .Beach-seafood-restaurant-activities {
+      background-size: 100% 100%;
+      height: 35rem;
+  }
+    .carousel-item.active.activities {
+      width: 100%;
+      height: 35rem;
+  }
+  h2.out-loca {
+      font-size: 35px;
+      line-height: 50px;
+    } 
+    p.seafood-activities {
+      padding: 22px 0;
+  }
+  .carousel-caption.d-md-block.activities {
+    margin-bottom: 0 !important;
+  }
+  /* basskidball */
+  .food-activities {
+    background: rgba(0, 0, 0, 0.125);
+    padding: 50px 0;
+  }
+  .restaurand-left-activities, .location-right-activities {
+    background: #fff;
+  }
+  
+  .restaurand-activities {
+      width: 100%;
+      flex-direction: column;
+  }
+  .location-activities {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  
+  img.footimg-lo-activities, img.foodimg-re-activities {
+    width: 397px;
+    height: 500px;
+  }
+  
+
+}
+/* ----------------------------------------------- */
+
+
+@media (min-width:600px) and (max-width:767px){
+  /* Differents activities for everyone */
+  h2.out-loca {
+    font-size: 35px;
+    line-height: 70px;
+  }
+  .Beach-seafood-restaurant-activities {
+    background-size: 100% 100%;
+}
+  .carousel-item.active.activities {
+    width: 100%;
+    height: 25rem;
+} 
+.carousel-caption.d-md-block.activities {
+  margin-bottom: 0 !important;
+}
+/* basskidball */
+.food-activities {
+  background: rgba(0, 0, 0, 0.125);
+  padding: 50px 0;
+}
+.restaurand-left-activities, .location-right-activities {
+  background: #fff;
+}
+
+.restaurand-activities {
+    width: 75%;
+    flex-direction: column;
+}
+.location-activities {
+  width: 75%;
+  flex-direction: column-reverse;
+}
+
+img.footimg-lo-activities, img.foodimg-re-activities {
+  width: 437px;
+  height: 500px;
+}
+
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:768px) and (max-width:1023px){
+/* Differents activities for everyone */
+  h2.out-loca {
+    font-size: 35px;
+    line-height: 70px;
+  }
+  .Beach-seafood-restaurant-activities {
+    background-size: 100% 100%;
+}
+  .carousel-item.active.activities {
+    width: 100%;
+    height: 25rem;
+} 
+.carousel-caption.d-md-block.activities {
+  text-align: center;
+  margin-bottom: 2rem !important;
+}
+.carousel-caption.d-none.d-md-block.activities {
+  margin-bottom: 2rem !important;
+}
+/* basskidball */
+.food-activities {
+  background: rgba(0, 0, 0, 0.125);
+  padding: 50px 0;
+}
+.restaurand-left-activities, .location-right-activities {
+  background: #fff;
+}
+
+.restaurand-activities {
+    width: 75%;
+    flex-direction: column;
+}
+.location-activities {
+  width: 75%;
+  flex-direction: column-reverse;
+}
+
+img.footimg-lo-activities, img.foodimg-re-activities {
+  width: 563px;
+  height: 500px;
+}
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:1024px) and (max-width:1203px){
+
+  /* Differents activities for everyone */
+  h2.out-loca {
+    font-size: 45px;
+  }
+  p.seafood-activities {
+    font-size: 14px;
+  }
+  /* restaurand */
+  .restaurand-activities,
+  .location-activities {
+    width: 82%;
+  }
+  img.footimg-lo-activities, img.foodimg-re-activities {
+    width: 413px;
+    height: 591px;
+  }
+
+}
+/* ----------------------------------------------- */
+
 /* ------------------------------------------PAGES SPA--------------------------- */
 
   /* -----header-bgr---- */
@@ -3295,6 +3989,453 @@ a.telephone:hover{
   transition: all 0.4s;
   cursor: pointer;
 }
+/* ----------------- reponsive--------------- */
+@media  (min-width: 320px) and (max-width:374px){
+      /* header */
+      .carousel-caption.d-md-block.spa {
+        margin-bottom: 0;
+      }
+      p.more-spa {
+        padding-top: 100px;
+      }
+      /* text */
+      .context-under-spa {
+        display: flex;
+        font-size: 13px;
+        gap: 2rem;
+        color: #85858a;
+        flex-direction: column;
+    }
+        /* content main spa */
+        .content-main-spa {
+          width: 80%;
+        }
+        .context-under-spa {
+          display: flex;
+          font-size: 15px;
+          color: #85858a;
+        }
+      /* 4 image */
+      .four {
+        width: 18rem;
+      }
+      img.img-spa {
+        height: 12rem;
+        width: 100%;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 50px !important;
+        margin: 0;
+      }
+      .col-md-4,
+      .col-md-8 {
+        flex: 100%;
+        max-width: 100%;
+        padding: 30px 0;
+    
+      }
+    
+      /* Facilities and Equipment  */
+      .context-in-equipment {
+        padding: 50px !important;
+    }
+      .content-main-spa-equipment {
+        height: 100% !important;
+      }
+      .context-under-spa-equipment {
+        font-size: 15px;
+    }
+      .context-under-spa-equipment {
+        height: 60rem;
+        width: 83%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 4rem;
+        flex-direction: column !important;
+        align-items: flex-start;
+        margin: 0 auto !important;
+    
+      }
+      h2.the-best-spa-equipment {
+        font-size: 42px !important;
+      }
+      p.under-best-spa-equipment {
+        font-size: 17px !important;
+        line-height: 35px !important;
+      }
+      
+      ul.text-left-small-equipment{
+        line-height: 40px;
+      }
+  }
+/* ----------------------------------------------- */
+@media (min-width:375px) and (max-width:413px){
+     /* header */
+     .carousel-caption.d-md-block.spa {
+      margin-bottom: 0;
+    }
+    p.more-spa {
+      padding-top: 100px;
+    }
+    /* text */
+    .context-under-spa {
+      display: flex;
+      font-size: 13px;
+      gap: 2rem;
+      color: #85858a;
+      flex-direction: column;
+  }
+      /* content main spa */
+      .content-main-spa {
+        width: 80%;
+      }
+      .context-under-spa {
+        display: flex;
+        font-size: 15px;
+        color: #85858a;
+      }
+    /* 4 image */
+    .four {
+      width: 22rem;
+    }
+    img.img-spa {
+      height: 15rem;
+      width: 100%;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+      flex-direction: column;
+      width: 100%;
+      padding: 0 50px !important;
+      margin: 0;
+    }
+    .col-md-4,
+    .col-md-8 {
+      flex: 100%;
+      max-width: 100%;
+      padding: 30px 0;
+  
+    }
+  
+    /* Facilities and Equipment  */
+    .context-in-equipment {
+      padding: 50px !important;
+  }
+    .content-main-spa-equipment {
+      height: 100% !important;
+    }
+    .context-under-spa-equipment {
+      font-size: 15px;
+  }
+    .context-under-spa-equipment {
+      height: 55rem;
+      width: 83%;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      gap: 4rem;
+      flex-direction: column !important;
+      align-items: flex-start;
+      margin: 0 auto !important;
+  
+    }
+    h2.the-best-spa-equipment {
+      font-size: 42px !important;
+    }
+    p.under-best-spa-equipment {
+      font-size: 17px !important;
+      line-height: 35px !important;
+    }
+    
+    ul.text-left-small-equipment{
+      line-height: 40px;
+    }
+
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:414px) and (max-width:599px){
+      /* header */
+      .carousel-caption.d-md-block.spa {
+        margin-bottom: 0;
+      }
+      p.more-spa {
+        padding-top: 100px;
+      }
+      /* text */
+      .context-under-spa {
+        display: flex;
+        font-size: 13px;
+        gap: 2rem;
+        color: #85858a;
+        flex-direction: column;
+    }
+        /* content main spa */
+        .content-main-spa {
+          width: 80%;
+        }
+        .context-under-spa {
+          display: flex;
+          font-size: 15px;
+          color: #85858a;
+        }
+      /* 4 image */
+      .four {
+        width: 24rem;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 50px !important;
+        margin: 0;
+    }
+      .col-md-4,
+      .col-md-8 {
+        flex: 100%;
+        max-width: 100%;
+        padding: 30px 0;
+    
+      }
+    
+      /* Facilities and Equipment  */
+      .context-in-equipment {
+        padding: 50px !important;
+    }
+      .content-main-spa-equipment {
+        height: 100% !important;
+      }
+    
+      .context-under-spa-equipment {
+        height: 55rem;
+        width: 83%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 4rem;
+        flex-direction: column !important;
+        align-items: flex-start;
+        margin: 0 auto !important;
+    
+      }
+      h2.the-best-spa-equipment {
+        font-size: 45px !important;
+      }
+      p.under-best-spa-equipment {
+        font-size: 17px !important;
+        line-height: 35px !important;
+      }
+      
+      ul.text-left-small-equipment{
+        line-height: 40px;
+      }
+  
+
+}
+/* ----------------------------------------------- */
+
+
+@media (min-width:600px) and (max-width:767px){
+    /* header */
+    .carousel-caption.d-md-block.spa {
+      margin-bottom: 0;
+    }
+    p.more-spa {
+      padding-top: 100px;
+    }
+    /* text */
+    .context-under-spa {
+      display: flex;
+      font-size: 13px;
+      gap: 2rem;
+      color: #85858a;
+      flex-direction: column;
+  }
+      /* content main spa */
+      .content-main-spa {
+        width: 80%;
+      }
+      .context-under-spa {
+        display: flex;
+        font-size: 15px;
+        color: #85858a;
+      }
+    /* 4 image */
+    .four {
+      width: 36rem;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+      flex-direction: column;
+      width: 100%;
+      padding: 0 50px !important;
+      margin: 0;
+  }
+    .col-md-4,
+    .col-md-8 {
+      flex: 100%;
+      max-width: 100%;
+      padding: 30px 0;
+  
+    }
+  
+    /* Facilities and Equipment  */
+    .content-main-spa-equipment {
+      height: 100% !important;
+    }
+  
+    .context-under-spa-equipment {
+      height: 50rem;
+      width: 83%;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      gap: 4rem;
+      flex-direction: column !important;
+      align-items: flex-start;
+      margin: 0 auto !important;
+  
+    }
+    h2.the-best-spa-equipment {
+      font-size: 45px !important;
+    }
+    p.under-best-spa-equipment {
+      font-size: 16px !important;
+    }
+    
+    ul.text-left-small-equipment{
+      line-height: 40px;
+    }
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:768px) and (max-width:1023px){
+
+  /* header */
+  .carousel-caption.d-md-block.spa {
+    margin-bottom: 0;
+  }
+  p.more-spa {
+    padding-top: 100px;
+  }
+  /* text */
+  .context-under-spa {
+    display: flex;
+    font-size: 13px;
+    gap: 2rem;
+    color: #85858a;
+    flex-direction: column;
+}
+    /* content main spa */
+    .content-main-spa {
+      width: 80%;
+    }
+    .context-under-spa {
+      display: flex;
+      font-size: 15px;
+      color: #85858a;
+    }
+  /* 4 image */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: column;
+    width: 68%;
+    padding: 0 50px !important;
+}
+  .col-md-4,
+  .col-md-8 {
+    flex: 100%;
+    max-width: 100%;
+    padding: 30px 0;
+
+  }
+
+  /* Facilities and Equipment  */
+  .content-main-spa-equipment {
+    height: 100% !important;
+  }
+
+  .context-under-spa-equipment {
+    height: 50rem;
+    width: 77%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 4rem;
+    flex-direction: column !important;
+    align-items: flex-start;
+    margin: 0 auto !important;
+
+  }
+  h2.the-best-spa-equipment {
+    font-size: 45px !important;
+  }
+  p.under-best-spa-equipment {
+    font-size: 16px !important;
+  }
+  
+  ul.text-left-small-equipment{
+    line-height: 40px;
+  }
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:1024px) and (max-width:1203px){
+  /* content main spa */
+  .content-main-spa {
+    width: 80%;
+  }
+  .context-under-spa {
+    display: flex;
+    font-size: 15px;
+    color: #85858a;
+  }
+/* 4 image */
+  .four {
+    width: 62rem;
+  }
+  .row {
+    width: 100%;
+    padding: 20px !important;
+    margin: 0;
+  }
+/* Facilities and Equipment  */
+
+h2.the-best-spa-equipment {
+  font-size: 45px !important;
+}
+p.under-best-spa-equipment {
+  font-size: 15px !important;
+}
+
+ul.text-left-small-equipment{
+  line-height: 40px;
+}
+}
+/* ----------------------------------------------- */
+
 
 /* -----------------------------------------PAGES 404 ERROR----------------------------- */
   /* -----background---- */
@@ -3369,6 +4510,44 @@ a.returnhome:hover{
   width: 100%;
   height: 100%;
 }
+/* ---------responsive--------- */
+@media  (min-width: 320px) and (max-width:374px){
+  
+}
+/* ----------------------------------------------- */
+@media (min-width:375px) and (max-width:413px){
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:414px) and (max-width:599px){
+
+}
+/* ----------------------------------------------- */
+
+
+@media (min-width:600px) and (max-width:767px){
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:768px) and (max-width:1023px){
+  
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:1024px) and (max-width:1203px){
+  img.d-block.w-100-location.error {
+    width: 100%;
+    height: 69rem;
+    object-fit: fill;
+  }
+
+}
+/* ----------------------------------------------- */
+
+
 /* ------------------------------------------ROOMS STYLE 1---------------------------------- */
 
   /* -----header-bgr---- */
@@ -3567,6 +4746,101 @@ button.more-roomstyle1:hover{
     background-color: #fff;
     transition:all 0.4s;
   }
+  /* -----resposive----- */
+  @media  (min-width: 320px) and (max-width:374px){
+    .carousel-caption.d-md-block.roomstyle1 {
+      margin-bottom: 0;
+    }
+    h2.out-loca-roomstyle1 {
+      font-size: 52px;
+    }
+    p.more-roomstyle1 {
+      font-size: 13px;
+      margin-top: 8rem;
+  }
+    .restaurand-roomstyle1 {
+      margin: 40px auto !important;
+  }
+    img.footimg-lo-roomstyle1, img.foodimg-re-roomstyle1 {
+      width: 274px;
+      height: 293px;
+  }
+  }
+  /* ----------------------------------------------- */
+  @media (min-width:375px) and (max-width:413px){
+    .carousel-caption.d-md-block.roomstyle1 {
+      margin-bottom: 0;
+    }
+    h2.out-loca-roomstyle1 {
+      font-size: 52px;
+    }
+    p.more-roomstyle1 {
+      font-size: 13px;
+      margin-top: 8rem;
+  }
+    .restaurand-roomstyle1 {
+      margin: 40px auto !important;
+  }
+    img.footimg-lo-roomstyle1, img.foodimg-re-roomstyle1 {
+      width: 300px;
+      height: 320px;
+  }
+  
+  }
+  /* ----------------------------------------------- */
+  
+  @media (min-width:414px) and (max-width:599px){
+    .carousel-caption.d-md-block.roomstyle1 {
+      margin-bottom: 0;
+    }
+    h2.out-loca-roomstyle1 {
+      font-size: 55px;
+    }
+
+    p.more-roomstyle1 {
+      font-size: 14px;
+      margin-top: 8rem;
+  }
+    img.footimg-lo-roomstyle1, img.foodimg-re-roomstyle1 {
+      width: 300px;
+      height: 322px;
+    }
+  }
+  /* ----------------------------------------------- */
+  
+  
+  @media (min-width:600px) and (max-width:767px){
+    .content-main-roomstyle1 {
+      width: 80%;
+    }
+  
+    img.footimg-lo-roomstyle1, img.foodimg-re-roomstyle1 {
+      width: 525px;
+      height: 323px;
+  }
+  }
+  /* ----------------------------------------------- */
+  
+  @media (min-width:768px) and (max-width:1023px){
+    .restaurand-roomstyle1 {
+      margin: 60px auto !important;
+  }
+  
+  img.footimg-lo-roomstyle1, img.foodimg-re-roomstyle1 {
+    width: 600px;
+    height: 348px;
+}
+  }
+  /* ----------------------------------------------- */
+  
+  @media (min-width:1024px) and (max-width:1203px){
+    .restaurand-roomstyle1 {
+      margin: 60px auto !important;
+  }
+  
+  }
+  /* ----------------------------------------------- */
+  
   
 /* --------------------------------------ROOMS STYLE 2----------------------------- */
 
@@ -3659,11 +4933,146 @@ img.image-roomstyle2 {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
 }
+/* ----------------responsive-------------- */
+@media  (min-width: 320px) and (max-width:374px){
+  .carousel-caption.d-md-block.roomstyle2 {
+    margin-bottom: 0;
+}
+  h2.out-loca-roomstyle2 {
+    font-size: 60px;
+
+  }
+  p.tion-roomstyle2 {
+    font-size: 15px;
+  }
+  p.more-roomstyle2 {
+    margin-top: 9rem;
+    font-size: 15px;
+}
+  .content-fluid-roomstyle2 {
+    width: 18rem;
+  }
+  img.image-roomstyle2 {
+    height: 17rem;
+  }
+  .sologan-roomstyle2 {
+    margin-left: 1rem;
+    margin-top: 15rem;
+    font-size: 16px;
+}
+}
+/* ----------------------------------------------- */
+@media (min-width:375px) and (max-width:413px){
+  .carousel-caption.d-md-block.roomstyle2 {
+    margin-bottom: 0;
+}
+  h2.out-loca-roomstyle2 {
+    font-size: 65px;
+  }p.tion-roomstyle2 {
+    font-size: 16px;
+  }
+  p.more-roomstyle2 {
+    margin-top: 9rem;
+}
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:414px) and (max-width:599px){
+  .carousel-caption.d-md-block.roomstyle2 {
+    margin-bottom: 0;
+}
+  h2.out-loca-roomstyle2 {
+    font-size: 65px;
+  }p.tion-roomstyle2 {
+    font-size: 16px;
+  }
+  p.more-roomstyle2 {
+    margin-top: 9rem;
+}
+  .content-fluid-roomstyle2 {
+    width: 24rem;
+  }
+
+}
+/* ----------------------------------------------- */
+
+
+@media (min-width:600px) and (max-width:767px){
+  
+  .row.d-inline-flex.style2 {
+    width: 55%;
+}
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:768px) and (max-width:1023px){
+  .row.d-inline-flex.style2 {
+    width: 70%;
+}
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:1024px) and (max-width:1203px){
+  .row.d-inline-flex.style2 {
+    width: 95%;
+}
+
+}
+/* ----------------------------------------------- */
+
 
 /* ------------------------------------------------------SINGLE ROOM 1------------------------------------- */
 
 
+/* ----------------responsive-------------- */
+@media  (min-width: 320px) and (max-width:374px){
+  .context-under-singleroom2 {
+    flex-direction: column;
+}
+  
+}
+/* ----------------------------------------------- */
+@media (min-width:375px) and (max-width:413px){
+  .context-under-singleroom2 {
+    flex-direction: column;
+}
 
+}
+/* ----------------------------------------------- */
+
+@media (min-width:414px) and (max-width:599px){
+  .context-under-singleroom2 {
+    flex-direction: column;
+}
+
+}
+/* ----------------------------------------------- */
+
+
+@media (min-width:600px) and (max-width:767px){
+  .context-under-singleroom2 {
+    flex-direction: column;
+}
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:768px) and (max-width:1023px){
+  .context-under-singleroom2 {
+    flex-direction: column;
+}
+
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:1024px) and (max-width:1203px){
+
+}
+/* ----------------------------------------------- */
 
 
 /* ------------------------------------------------------SINGLE ROOM 2------------------------------------- */
@@ -3835,6 +5244,37 @@ a.returnroom {
 a.returnroom:hover{
   color: #c19b76;
 }
+/* ----------------responsive-------------- */
+@media  (min-width: 320px) and (max-width:374px){
+  
+}
+/* ----------------------------------------------- */
+@media (min-width:375px) and (max-width:413px){
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:414px) and (max-width:599px){
+
+}
+/* ----------------------------------------------- */
+
+
+@media (min-width:600px) and (max-width:767px){
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:768px) and (max-width:1023px){
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:1024px) and (max-width:1203px){
+
+}
+/* ----------------------------------------------- */
+
 
 /* ------------------------------------------------------------------------------ */
 
@@ -3896,7 +5336,95 @@ img.img-thumbnail {
   display: table;
   clear: both;
 } */
+/* ----------------responsive-------------- */
+@media  (min-width: 320px) and (max-width:374px){
+  .carousel-caption.d-md-block.singleroom2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+h2.out-loca-singleroom2 {
+  font-size: 42px;
+}
+p.tion-singleroom2 {
+  font-size: 13px;
+}
+p.more-singleroom2 {
+  font-size: 12px;
+  margin-top: 8rem;
+}
 
+  
+}
+/* ----------------------------------------------- */
+@media (min-width:375px) and (max-width:413px){
+  .carousel-caption.d-md-block.singleroom2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+h2.out-loca-singleroom2 {
+  font-size: 45px;
+}
+p.tion-singleroom2 {
+  font-size: 16px;
+}
+p.more-singleroom2 {
+  font-size: 14px;
+  margin-top: 8rem;
+}
+
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:414px) and (max-width:599px){
+  .carousel-caption.d-md-block.singleroom2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+h2.out-loca-singleroom2 {
+  font-size: 45px;
+}
+p.tion-singleroom2 {
+  font-size: 16px;
+}
+p.more-singleroom2 {
+  font-size: 14px;
+  margin-top: 8rem;
+}
+
+
+}
+/* ----------------------------------------------- */
+
+
+@media (min-width:600px) and (max-width:767px){
+  .carousel-caption.d-md-block.singleroom2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+h2.out-loca-singleroom2 {
+  font-size: 45px;
+}
+p.tion-singleroom2 {
+  font-size: 16px;
+}
+p.more-singleroom2 {
+  font-size: 14px;
+  margin-top: 8rem;
+}
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:768px) and (max-width:1023px){
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:1024px) and (max-width:1203px){
+
+}
+/* ----------------------------------------------- */
 
 
 /* ---------------------------------------BLOG CLASSIC------------------------- */
@@ -4045,6 +5573,193 @@ button.older:hover{
 li.post-li {
   padding: 10px 0;
 }
+/* ------------------- responsive----------- */
+@media  (min-width: 320px) and (max-width:374px){
+  .blog-classic-all {
+    display: flex;
+    flex-direction: column;
+}
+.food-roomstyle1.from-blog {
+  width: 100%;
+}
+.blog-classic-left {
+  width: 100%;
+}
+.restaurand-roomstyle1.one-bogleft,
+.location-roomstyle1.two-bogleft {
+  height: 50% !important;
+}
+.restaurand-right-roomstyle1.bogleft, .location-left-roomstyle1.bogleft {
+  height: 17rem;
+  width: 17rem;
+}
+img.foodimg-re-roomstyle1.blg-classic-img, img.footimg-lo-roomstyle1.blg-classic-img {
+  height: 17rem;
+  width: 17rem;
+}
+.two-input {
+  gap: 2rem;
+}
+.content-blog-classic {
+  margin: 7px;
+}
+button.older{
+  width: 8rem;
+  height: 2rem;
+}
+  
+}
+/* ----------------------------------------------- */
+@media (min-width:375px) and (max-width:413px){
+  .blog-classic-all {
+    display: flex;
+    flex-direction: column;
+}
+.food-roomstyle1.from-blog {
+  width: 100%;
+}
+.blog-classic-left {
+  width: 100%;
+}
+.restaurand-roomstyle1.one-bogleft,
+.location-roomstyle1.two-bogleft {
+  height: 50% !important;
+}
+.restaurand-right-roomstyle1.bogleft, .location-left-roomstyle1.bogleft {
+  height: 17rem;
+  width: 20rem;
+}
+img.foodimg-re-roomstyle1.blg-classic-img, img.footimg-lo-roomstyle1.blg-classic-img {
+  height: 17rem;
+  width: 20rem;
+}
+.two-input {
+  gap: 2rem;
+}
+.content-blog-classic {
+  margin: 7px;
+}
+button.older{
+  width: 8rem;
+  height: 2rem;
+}
+}
+/* ----------------------------------------------- */
+
+@media (min-width:414px) and (max-width:599px){
+  .blog-classic-all {
+    display: flex;
+    flex-direction: column;
+}
+.food-roomstyle1.from-blog {
+  width: 100%;
+}
+.blog-classic-left {
+  width: 100%;
+}
+.restaurand-roomstyle1.one-bogleft,
+.location-roomstyle1.two-bogleft {
+  height: 50% !important;
+}
+.restaurand-right-roomstyle1.bogleft, .location-left-roomstyle1.bogleft {
+  height: 17rem;
+  width: 20rem;
+}
+img.foodimg-re-roomstyle1.blg-classic-img, img.footimg-lo-roomstyle1.blg-classic-img {
+  height: 17rem;
+  width: 20rem;
+}
+.two-input {
+  gap: 2rem;
+}
+.content-blog-classic {
+  margin: 7px;
+}
+}
+/* ----------------------------------------------- */
+
+
+@media (min-width:600px) and (max-width:767px){
+  .blog-classic-all {
+    display: flex;
+    flex-direction: column;
+}
+.food-roomstyle1.from-blog {
+  width: 100%;
+}
+.blog-classic-left {
+  width: 100%;
+}
+.restaurand-roomstyle1.one-bogleft,
+.location-roomstyle1.two-bogleft {
+  height: 50% !important;
+}
+.restaurand-right-roomstyle1.bogleft, .location-left-roomstyle1.bogleft {
+  height: 17rem;
+  width: 33rem;
+}
+img.foodimg-re-roomstyle1.blg-classic-img, img.footimg-lo-roomstyle1.blg-classic-img {
+  height: 17rem;
+  width: 33rem;
+}
+.content-blog-classic {
+  margin: 7px;
+}
+
+}
+
+/* ----------------------------------------------- */
+
+@media (min-width:768px) and (max-width:1023px){
+  .blog-classic-all {
+    display: flex;
+    flex-direction: column;
+}
+.food-roomstyle1.from-blog {
+  width: 100%;
+}
+.blog-classic-left {
+  width: 46rem;
+}
+.restaurand-roomstyle1.one-bogleft,
+.location-roomstyle1.two-bogleft {
+  height: 50% !important;
+}
+.restaurand-right-roomstyle1.bogleft, .location-left-roomstyle1.bogleft {
+  width: 40rem;
+  height: 17rem;
+}
+img.foodimg-re-roomstyle1.blg-classic-img, img.footimg-lo-roomstyle1.blg-classic-img {
+  height: 17rem;
+  width: 40rem;
+}
+.content-blog-classic {
+  margin: 7px;
+}
+}
+/* ----------------------------------------------- */
+
+@media (min-width:1024px) and (max-width:1203px){
+  .food-roomstyle1 {
+    padding: 0 !important;
+}
+  .restaurand-roomstyle1.one-bogleft,
+  .location-roomstyle1.two-bogleft {
+    height: 50%;
+}
+
+.blog-classic-left {
+  width: 50rem;
+  /* padding: 60px; */
+}
+.blog-classic-right {
+  padding: 50px;
+  margin-top: 10px;
+}
+.content-blog-classic {
+  margin: 7px;
+}
+}
 /* ---------------------------------------BLOG IMAGE POST------------------------- */
 
 div#imagePost {
@@ -4088,6 +5803,10 @@ p.festivalnews {
 img.img-thumbnail.img-post {
   height: 27rem;
   width: 37rem;
+}
+
+.two-input {
+  margin: 20px 0;
 }
 
 .text-festival {
@@ -4361,6 +6080,215 @@ a.button.show {
   background-color: #ececec;
 }
 
+/* ---------------------responsive------------------ */
+@media  (min-width: 320px) and (max-width:374px){
+  div#lightgallery {
+    width: 18rem;
+}
+  div#imagePost {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    box-shadow: none;
+    align-items: center;
+}
+.text-festival {
+  text-align: left;
+  width: 15rem;
+}
+.textunder-img {
+  width: 18rem;
+  text-align: center;
+  margin: 0 !important;
+}
+.container.new {
+  padding: 0;
+}
+img.img-thumbnail.img-post {
+  height: 18rem;
+  width: 17rem;
+}
+.imagePost-right {
+  margin: 30px;
+  width: 270px;
+}
+.share-button,
+.circle.first-circle,
+.circle.second-circle,
+.circle.third-circle,
+.circle.forth-circle,
+.circle.fifth-circle {
+  position: fixed;
+  left:87%;
+  background-color: #ececec;
+}
+.hmmar {
+  max-width: 27rem;
+  text-align: center;
+  margin: 0 auto;
+}
+  
+}
+/* ----------------------------------------------- */
+@media (min-width:375px) and (max-width:413px){
+  div#lightgallery {
+    width: 22rem;
+}
+  div#imagePost {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    box-shadow: none;
+    align-items: center;
+}
+.text-festival {
+  text-align: left;
+  width: 18rem;
+}
+.textunder-img {
+  width: 22rem;
+}
+.container.new {
+  padding: 0;
+}
+img.img-thumbnail.img-post {
+  height: 22rem;
+  width: 25rem;
+}
+.imagePost-right {
+  margin: 30px;
+  width: 310px;
+}
+.share-button,
+.circle.first-circle,
+.circle.second-circle,
+.circle.third-circle,
+.circle.forth-circle,
+.circle.fifth-circle {
+  position: fixed;
+  left:87%;
+  background-color: #ececec;
+}
+.hmmar {
+  max-width: 27rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:414px) and (max-width:599px){
+  div#lightgallery {
+    width: 22rem;
+}
+  div#imagePost {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    box-shadow: none;
+    align-items: center;
+}
+.text-festival {
+  text-align: left;
+  width: 18rem;
+}
+.textunder-img {
+  width: 22rem;
+}
+.container.new {
+  padding: 0;
+}
+img.img-thumbnail.img-post {
+  height: 22rem;
+  width: 25rem;
+}
+.imagePost-right {
+  margin: 30px;
+  width: 353px;
+}
+.share-button,
+.circle.first-circle,
+.circle.second-circle,
+.circle.third-circle,
+.circle.forth-circle,
+.circle.fifth-circle {
+  position: fixed;
+  left:87%;
+  background-color: #ececec;
+}
+.hmmar {
+  max-width: 27rem;
+  text-align: center;
+  margin: 0 auto;
+}
+}
+  
+
+
+/* ----------------------------------------------- */
+
+
+@media (min-width:600px) and (max-width:767px){
+  div#imagePost {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    box-shadow: none;
+    align-items: center;
+}
+.container.new {
+  padding: 0;
+}
+img.img-thumbnail.img-post {
+  height: 27rem;
+  width: 34rem;
+}
+.imagePost-right {
+  width: 500px;
+  margin: 30px;
+
+}
+.share-button,
+.circle.first-circle,
+.circle.second-circle,
+.circle.third-circle,
+.circle.forth-circle,
+.circle.fifth-circle {
+  position: fixed;
+  left:87%;
+  background-color: #ececec;
+}
+.hmmar {
+  max-width: 27rem;
+  text-align: center;
+  margin: 0 auto;
+}
+}
+/* ----------------------------------------------- */
+
+@media (min-width:768px) and (max-width:1023px){
+  div#imagePost {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    box-shadow: none;
+    align-items: center;
+}
+.container.new {
+  padding: 0;
+}
+
+.imagePost-right {
+  width: 591px;
+}
+}
+/* ----------------------------------------------- */
+
+@media (min-width:1024px) and (max-width:1203px){
+
+}
+
 /* ---------------------------------------BLOG SILDER POST------------------------- */
 /* ---------------------------------------BLOG VIDEO POST------------------------- */
 /* ---------------------------------------ELEMENT------------------------- */
@@ -4483,6 +6411,65 @@ button.submit-contact:hover{
 
 /*------ map----- */
 
+.google-map iframe{
+  width: 100%;
+  height: 300px;
+}
+
+/* --------responsive------------- */
+@media  (min-width: 320px) and (max-width:374px){
+  .row.allcontact {
+    width: 100%;
+    margin: 30px 0;
+    padding: 0 !important;
+}
+  
+}
+/* ----------------------------------------------- */
+@media (min-width:375px) and (max-width:413px){
+  .row.allcontact {
+    width: 100%;
+    margin: 30px 0;
+    padding: 0 !important;
+}
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:414px) and (max-width:599px){
+  .row.allcontact {
+    width: 100%;
+    margin: 30px 0;
+    padding: 0 !important;
+}
+
+}
+/* ----------------------------------------------- */
+
+
+@media (min-width:600px) and (max-width:767px){
+  .row.allcontact {
+    width: 100%;
+    margin: 30px 0;
+    padding: 0 !important;
+}
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:768px) and (max-width:1023px){
+  .row.allcontact {
+    width: 100%;
+    margin: 30px 0;
+    padding: 0 !important;
+}
+
+}
+/* ----------------------------------------------- */
+
+@media (min-width:1024px) and (max-width:1203px){
+
+}
 /* ---------------------------------------------------------------------------- */
 
 /* ------footer--- */

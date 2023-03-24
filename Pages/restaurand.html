@@ -29,6 +29,11 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="../index.html"><img class="logo" src="../image/logo@2x.png" alt="logo"></a>
+                  <div class="toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                  </div>
                   <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                       
@@ -106,16 +111,15 @@
         </div>
     </div>
 
-    <!-- --- -->
-    <!-- bạckgroud-header -->
+<!-- --- -->
+<!-- bạckgroud-header -->
     <div id="bacgroud-header">
-
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="gradient-dark-restaurand"></div>
                 <img class="d-block w-100-restaurand" src="../image/restaurand-bgr.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block backgroud">
+                <div class="carousel-caption d-md-block backgroud">
                     <h2 class="out-loca-restaurand">Restaurant</h2>
                     <p class="tion-restaurand">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde veniam aperiam rerum quis atque, illum.</p>
                     <p class="more-restaurand "><a class="waybackhome-restaurand" href="../index.html">Home</a> / Restaurant  </p>
@@ -126,8 +130,7 @@
         
     </div>
     
-    <!-- Beautiful places with beautiful people -->
-
+<!-- Tasty dishes and homemade. -->
     <div class="content-main-restaurand">
         <div class="context-in">
             <h2 class="the-best-restaurand">Tasty dishes and homemade.<br>
@@ -139,17 +142,13 @@
             <div class="context-under-right-restaurand">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt necessitatibus natus hic suscipit dolorem, veniam excepturi. Ut quibusdam animi deserunt voluptates, sint nostrum eligendi amet tempore accusamus reprehenderit doloremque modi?</div>
         </div>
       </div>
-
-    
 <!-- Beach seafood restaurant -->
-
     <div class="Beach-seafood-restaurant">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active restaurand-sea">
               <div class="gradient-dark"></div>
-              <!-- <img class="d-block w-100-location" src="../image/Beach seafood restaurant.jpg" alt="First slide"> -->
-              <div class="carousel-caption d-none d-md-block restaurand-sea">
+              <div class="carousel-caption d-md-block restaurand-sea">
                   <h2 class="out-loca-restaurand-sea">Beach seafood restaurant</h2>
                   <p class="seafood">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illo minus alias, at, ex aperiam quia. Consectetur, in, doloremque. Porro, vitae nemo deserunt? Cum, laborum incidunt tenetur error dignissimos ipsam illum, vero ducimus ipsum maiores tempore soluta pariatur labore quis.</p>
                   <button type="button" class="more-restaurand-sea">OUR MENU</button>
@@ -305,6 +304,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
@@ -324,7 +324,12 @@
             else {
                 $('.navbar-nav').removeClass('test');
             }
-        })
+          })
+          $(document).ready(function() {
+            $('.toggle').click(function() {
+                $('ul.navbar-nav').slideToggle();
+            });
+          })
     </script>
     
 </body>
