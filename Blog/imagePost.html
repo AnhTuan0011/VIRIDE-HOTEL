@@ -17,8 +17,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.8.3/dist/css/lightgallery.min.css">
-    
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.8.3/dist/css/lightgallery.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/styletest.css">
 
 
@@ -41,7 +41,6 @@
                   </div>
                   <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                      
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle active " aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Home
@@ -131,13 +130,14 @@
             </div>  
         </div>
     </div>
+    <a href="./" data-fancybox="bc"></a>
 <!-- content -->
     <div id="imagePost">
         <div class="imagePost-left">
             <div class="container new imagePost">
                 <div id="lightgallery">
                   <a
-                    href="../image/blog-classic1.jpg">
+                    href="../image/blog-classic1.jpg" data-fancybox="img">
                     <img class="img-thumbnail img-post"
                       src="../image/blog-classic1.jpg">
                   </a>
@@ -154,10 +154,9 @@
                         <p class="tival newtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur totam unde quasi ipsa eum voluptatibus illum et, odio qui, deleniti 
                             <b>iste nihil laboriosam</b>, magnam. Quisquam, eaque consequatur mollitia nesciunt! Vel ipsam tenetur quae consectetur repellat fugit sequi explicabo necessitatibus neque, optio unde sit sed, deleniti, modi. Odit libero culpa molestias velit eveniet unde laborum illo voluptas molestiae. Aut, beatae, eligendi.</p>
                     </div>
-
                   </div>
                   <a
-                    href="../image/gallery1.jpg">
+                    href="../image/gallery1.jpg" data-fancybox="img">
                     <img class="img-thumbnail img-post"
                       src="../image/gallery1.jpg">
                   </a>
@@ -387,10 +386,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.8.3/dist/js/lightgallery-all.min.js"></script>
-
+    <!-- <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.8.3/dist/js/lightgallery-all.min.js"></script> -->
+    
     <script>
         $(window).scroll(function () {
             if ($(this).scrollTop() > 106) {
@@ -418,6 +417,23 @@
           $("#lightgallery1").lightGallery1();
         });
 
+        $('[data-fancybox]').fancybox({
+            buttons: [
+                'close'
+            ],
+            wheel: false,
+            transitionEffect: "slide",
+            // thumbs          : false,
+            // hash            : false,
+            loop: false,
+            // keyboard        : true,
+            toolbar: true,
+            // animationEffect : false,
+            // arrows          : true,
+            clickContent: false,
+            hash: false,
+            infobar: false,
+        });
         
 
         $('.share-button').on('click', function(event) {
