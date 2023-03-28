@@ -2692,7 +2692,7 @@ p.more-location {
 
 @media (min-width:414px) and (max-width:599px){
 
-  .carousel-caption {
+  .carousel-caption.d-md-block.location {
     position: absolute;
     bottom: 20px;
     left: 50% !important;
@@ -2815,7 +2815,7 @@ p.more-location {
 
 @media (min-width:768px) and (max-width:1023px){
 
-  .carousel-caption {
+  .carousel-caption.d-md-block.location {
     position: absolute;
     bottom: 20px;
     left: 50% !important;
@@ -6347,8 +6347,19 @@ img.img-thumbnail.img-post {
 .circle.forth-circle,
 .circle.fifth-circle {
   position: fixed;
-  left:87%;
+  left:80%;
+  width: 40px;
+  height: 40px;
+  border-radius: 22px;
   background-color: #ececec;
+}
+a.button.show {
+  background-color: #ececec;
+  width: 40px;
+  height: 40px;
+}
+.circle .show {
+  top: 40px;
 }
 .hmmar {
   max-width: 27rem;
@@ -6394,8 +6405,19 @@ img.img-thumbnail.img-post {
 .circle.forth-circle,
 .circle.fifth-circle {
   position: fixed;
-  left:87%;
+  left:80%;
+  width: 40px;
+  height: 40px;
+  border-radius: 22px;
   background-color: #ececec;
+}
+a.button.show {
+  background-color: #ececec;
+  width: 40px;
+  height: 40px;
+}
+.circle .show {
+  top: 40px;
 }
 .hmmar {
   max-width: 27rem;
@@ -6433,7 +6455,7 @@ img.img-thumbnail.img-post {
 }
 .imagePost-right {
   margin: 30px;
-  width: 353px;
+  width: 85%;
 }
 .share-button,
 .circle.first-circle,
@@ -6442,8 +6464,19 @@ img.img-thumbnail.img-post {
 .circle.forth-circle,
 .circle.fifth-circle {
   position: fixed;
-  left:87%;
+  left:80%;
+  width: 40px;
+  height: 40px;
+  border-radius: 22px;
   background-color: #ececec;
+}
+a.button.show {
+  background-color: #ececec;
+  width: 40px;
+  height: 40px;
+}
+.circle .show {
+  top: 40px;
 }
 .hmmar {
   max-width: 27rem;
@@ -6473,7 +6506,7 @@ img.img-thumbnail.img-post {
   width: 34rem;
 }
 .imagePost-right {
-  width: 500px;
+  width: 90%;
   margin: 30px;
 
 }
@@ -6484,7 +6517,8 @@ img.img-thumbnail.img-post {
 .circle.forth-circle,
 .circle.fifth-circle {
   position: fixed;
-  left:87%;
+  left:80%;
+  top: 80%;
   background-color: #ececec;
 }
 .hmmar {
@@ -6506,9 +6540,21 @@ img.img-thumbnail.img-post {
 .container.new {
   padding: 0;
 }
+.share-button, 
+.circle.first-circle, 
+.circle.second-circle, 
+.circle.third-circle, 
+.circle.forth-circle, 
+.circle.fifth-circle {
+  left: 85%;
+}
 
 .imagePost-right {
-  width: 591px;
+  margin: 30px 0;
+  width: 77%;
+}
+.two-input {
+  gap: 6rem;
 }
 }
 /* ----------------------------------------------- */
