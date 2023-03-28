@@ -419,7 +419,7 @@ svg.bi.bi-list {
     background-color: rgba(0,0,0,0.2);
   }
   a.dropdown-item {
-    color: #000;
+    color: #ffff;
   }
 
   a.navbar-brand{
@@ -1190,12 +1190,17 @@ margin: 0 auto;
 }
 
 img.footimg-lo, img.foodimg-re  {
-width: 531px;
-height: 500px;
+width: 100%;
+height: 100%;
 }
 
 .restaurand-left, .location-right {
 padding: 50px;
+max-width: 50%;
+}
+.restaurand-right,
+.location-left {
+  max-width: 50%;
 }
 
 h3.restau , h3.loca{
@@ -1207,6 +1212,10 @@ font-size: 14px;
 line-height: 24px;
 margin: 25px 0;
 letter-spacing: 0.5px;
+}
+a:hover {
+  color: #c19b76;
+  text-decoration: unset;
 }
 
 p.rand-one, p.rand-two ,p.tion-one , p.tion-two {
@@ -1420,10 +1429,10 @@ line-height: 45px;
   }
  
   /* img */
-  img.footimg-lo, img.foodimg-re {
+  /* img.footimg-lo, img.foodimg-re {
     height: 320px !important;
     width: 320px !important;
-}
+} */
 .restaurand-left, .location-right {
   padding: 30px;
 }
@@ -1433,10 +1442,21 @@ line-height: 45px;
   .location{
     flex-direction: column-reverse;
   }
+  .restaurand-left,
+  .location-right,
+  .restaurand-right,
+  .location-left {
+    max-width: 100%;
+}
   .restaurand,
   .location {
     width: 100%;
   }
+
+  a:hover {
+    color: #c19b76;
+    text-decoration: unset;
+}
 
 /*  our room*/
 
@@ -1572,22 +1592,28 @@ line-height: 45px;
     }
    
     /* img */
-    img.footimg-lo, img.foodimg-re {
-      height: 400px !important;
-  }
+    /* img.footimg-lo, img.foodimg-re {
+      height: 400px !important; */
+  /* } */
   .restaurand-left, .location-right {
     padding: 30px;
   }
-    .restaurand {
+  .restaurand {
       flex-direction: column;
-    }
-    .location{
+  }
+  .location{
       flex-direction: column-reverse;
-    }
-    .restaurand,
-    .location {
+  }
+  .restaurand-left,
+  .location-right,
+  .restaurand-right,
+  .location-left {
+    max-width: 100%;
+}
+  .restaurand,
+  .location {
       width: 100%;
-    }
+  }
   
 /*  our room*/
   
@@ -1681,7 +1707,7 @@ line-height: 45px;
       padding: 20px 65px !important;
     }
 
-  }
+}
 /* ----------------------------------------------- */
 
 @media (min-width:414px) and (max-width:599px){
@@ -1734,6 +1760,12 @@ line-height: 45px;
   .location{
     flex-direction: column-reverse;
   }
+  .restaurand-left,
+  .location-right,
+  .restaurand-right,
+  .location-left {
+    max-width: 100% !important;
+}
   .restaurand,
   .location {
     width: 100%;
@@ -1887,6 +1919,12 @@ line-height: 45px;
   .location{
     flex-direction: column-reverse;
   }
+  .restaurand-left,
+  .location-right,
+  .restaurand-right,
+  .location-left {
+    max-width: 100%;
+}
   .restaurand,
   .location {
     width: 90%;
@@ -2006,9 +2044,17 @@ line-height: 45px;
   /* img restaurand */
   .restaurand {
     flex-direction: column;
+    width: 90%;
   }
+  .restaurand-left,
+  .location-right,
+  .restaurand-right,
+  .location-left {
+    max-width: 100%;
+}
   .location{
     flex-direction: column-reverse;
+    width: 90%;
   }
 /*  our room*/
   .ourservices-text {
@@ -2086,12 +2132,20 @@ line-height: 45px;
   .restaurand,
   .location {
     width: 90%;
-
-  } 
-  img.footimg-lo, img.foodimg-re {
-    width: 453px;
-    height: 551px;
   }
+    img.footimg-lo, img.foodimg-re  {
+      width: 100%;
+      height: 100%;
+      }
+      
+      .restaurand-left, .location-right {
+      /* padding: 50px; */
+      max-width: 50%;
+      }
+      .restaurand-right,
+      .location-left {
+        max-width: 50%;
+      }
   /* slider */
   .location-roomstyle1,
   .restaurand-roomstyle1{
@@ -2144,10 +2198,13 @@ button.more.a-homehotel:hover{
   width: 62%;
   margin: 0 auto;
 }
-
+.restaurand-left-homehotel,
+.location-right-homehotel {
+  width: 50%;
+}
 img.footimg-lo-homehotel, img.foodimg-re-homehotel  {
-  width: 471px;
-  height: 520px;
+  width: 100%;
+  height: 100%;
 }
 
 .restaurand-left-homehotel, .location-right-homehotel {
@@ -2184,6 +2241,7 @@ a.btn-pro-homehotel:hover{
   color: #C19B76;
 }
 
+
   /* ------ourservices------- */
 .row-rooms-homehotel {
     display: flex;
@@ -2194,17 +2252,21 @@ a.btn-pro-homehotel:hover{
 /* ---------------reposive--------- */
 
 @media  (min-width: 320px) and (max-width:374px){
+  .food {
+    background-color: #fff !important;
+}
   .restaurand-homehotel{
     flex-direction: column ;
     width: 100%;
+    background-color: #fff;
   }
   .location-homehotel{
     flex-direction: column-reverse;
     width: 100%;
+    background-color: #fff;
   }
-  img.footimg-lo-homehotel, img.foodimg-re-homehotel {
-    width: 302px;
-    height: 360px;
+  .restaurand-left-homehotel, .location-right-homehotel {
+    width: 100%;
   }
   /*  */
   .row-rooms-homehotel{
@@ -2224,15 +2286,19 @@ a.btn-pro-homehotel:hover{
 .restaurand-homehotel{
   flex-direction: column ;
   width: 100%;
+  background-color: #fff;
+
 }
 .location-homehotel{
   flex-direction: column-reverse;
   width: 100%;
+  background-color: #fff;
+
 }
-img.footimg-lo-homehotel, img.foodimg-re-homehotel {
-  width: 358px;
-  height: 400px;
+.restaurand-left-homehotel, .location-right-homehotel {
+  width: 100%;
 }
+
 /*  */
 .row-rooms-homehotel{
   max-width: 400px;
@@ -2261,10 +2327,10 @@ img.image-ourservices.hotel {
   background-color: #fff;
 
 }
-img.footimg-lo-homehotel, img.foodimg-re-homehotel {
-  width: 396px;
-  height: 450px;
+.restaurand-left-homehotel, .location-right-homehotel {
+  width: 100%;
 }
+
 /*  */
 }
 /* ----------------------------------------------- */
@@ -2284,9 +2350,12 @@ img.footimg-lo-homehotel, img.foodimg-re-homehotel {
 .location-homehotel{
   flex-direction: column-reverse;
   background-color: #fff;
-
   width: 80%;
 }
+.restaurand-left-homehotel, .location-right-homehotel {
+  width: 100%;
+}
+
 /*  */
 /* .row-rooms-homehotel{
   max-width: 600px;
@@ -2304,13 +2373,19 @@ img.image-ourservices.hotel {
   .restaurand-homehotel{
     flex-direction: column ;
     background-color: #fff;
+    width: 90%;
 
   }
   .location-homehotel{
     flex-direction: column-reverse;
     background-color: #fff;
+    width: 90%;
 
   }
+  .restaurand-left-homehotel, .location-right-homehotel {
+    width: 100%;
+}
+
 /*  */
   .row-rooms-homehotel{
     max-width: 750px;
@@ -2337,8 +2412,8 @@ img.image-ourservices.hotel {
     background-color: #fff;
   }
   img.footimg-lo-homehotel, img.foodimg-re-homehotel {
-    width: 454px;
-    height: 545px;
+    width: 100%;
+    height: 100%;
   }
 
 }
@@ -2453,9 +2528,9 @@ width: 80%;
 margin: 0 auto;
 }
 
-img.footimg-lo-beach, img.foodimg-re-beach  {
-width: 608px;
-height: 520px;
+img.footimg-lo-beach, img.foodimg-re-beach {
+  width: 100%;
+  height: 100%;
 }
 
 .restaurand-left, .location-right {
@@ -2522,10 +2597,9 @@ p.more-location {
     flex-direction: column;
   }
   /* restaurand */
-  .food {
-    padding-top: 40px;
-    background: #f3f3f3;
-  }
+  .food.loction-bech {
+    background-color: #e2e0e0 !important;
+}
   .restaurand-left,
   .location-right {
     background-color: #fff;
@@ -2544,8 +2618,8 @@ p.more-location {
     }
 
     img.footimg-lo-beach, img.foodimg-re-beach {
-      width: 243px;
-      height: 400px;
+      width: 100%;
+      height: 100%;
   }
   p.rand-one-beach, p.rand-two-beach, p.tion-one-beach, p.tion-two-beach {
     color: #85858a;
@@ -2604,9 +2678,9 @@ p.more-location {
 
     }
 
-  img.footimg-lo-beach, img.foodimg-re-beach {
-    width: 287px;
-    height: 430px;
+    img.footimg-lo-beach, img.foodimg-re-beach {
+      width: 100%;
+      height: 100%;
   }
   p.rand-one-beach, p.rand-two-beach, p.tion-one-beach, p.tion-two-beach {
     color: #85858a;
@@ -2666,10 +2740,10 @@ p.more-location {
 
     }
 
-  img.footimg-lo-beach, img.foodimg-re-beach {
-    width: 318px;
-    height: 430px;
-}
+    img.footimg-lo-beach, img.foodimg-re-beach {
+      width: 100%;
+      height: 100%;
+  }
     p.rand-one-beach, p.rand-two-beach, p.tion-one-beach, p.tion-two-beach {
       color: #85858a;
       font-size: 14px;
@@ -2721,8 +2795,8 @@ p.more-location {
   align-items:center;
   }
   img.footimg-lo-beach, img.foodimg-re-beach {
-    width: 466px;
-    height: 520px;
+    width: 100%;
+    height: 100%;
 }
 }
 /* ----------------------------------------------- */
@@ -2765,9 +2839,9 @@ p.more-location {
 .location-beach {
   flex-direction: column-reverse;
 }
-  img.footimg-lo-beach, img.foodimg-re-beach {
-    width: 602px;
-    height: 520px;
+img.footimg-lo-beach, img.foodimg-re-beach {
+  width: 100%;
+  height: 100%;
 }
 }
 
@@ -2788,11 +2862,10 @@ p.more-location {
   .location-beach {
     width: 95%;
   }
-  img.footimg-lo-beach,
-  img.foodimg-re-beach {
-    width: 478px;
-    height: 592px;
-  }
+  img.footimg-lo-beach, img.foodimg-re-beach {
+    width: 100%;
+    height: 100%;
+}
   .restaurand-left,
   .location-right {
     background-color: #fff;
@@ -2962,9 +3035,13 @@ button.more-restaurand-sea:hover{
   margin: 0 auto;
 }
 
+.restaurand-left-foodsea,
+.location-right-foodsea {
+  max-width: 50%;
+}
 img.footimg-lo-foodsea, img.foodimg-re-foodsea  {
-  width: 531px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
 }
 
 .restaurand-left-foodsea, .location-right-foodsea {
@@ -3079,9 +3156,12 @@ p.more-restaurand {
   .location-foodsea {
     flex-direction: column-reverse;
   }
+  .restaurand-left-foodsea, .location-right-foodsea {
+    max-width: 100%;
+}
   img.footimg-lo-foodsea, img.foodimg-re-foodsea {
-    width: 303px;
-    height: 390px;
+    width: 100%;
+    height: 100%;
 }
   
 }
@@ -3158,9 +3238,12 @@ p.more-restaurand {
   .location-foodsea {
     flex-direction: column-reverse;
   }
+  .restaurand-left-foodsea, .location-right-foodsea {
+    max-width: 100%;
+}
   img.footimg-lo-foodsea, img.foodimg-re-foodsea {
-    width: 358px;
-    height: 430px;
+    width: 100%;
+    height: 100%;
 }
 }
 /* ----------------------------------------------- */
@@ -3228,9 +3311,12 @@ p.more-restaurand {
   .location-foodsea {
     flex-direction: column-reverse;
   }
+  .restaurand-left-foodsea, .location-right-foodsea {
+    max-width: 100%;
+}
   img.footimg-lo-foodsea, img.foodimg-re-foodsea {
-    width: 397px;
-    height: 430px;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -3289,9 +3375,12 @@ p.more-restaurand {
     .location-foodsea {
       flex-direction: column-reverse;
     }
+    .restaurand-left-foodsea, .location-right-foodsea {
+      max-width: 100%;
+  }
     img.footimg-lo-foodsea, img.foodimg-re-foodsea {
-      width: 410px;
-      height: 522px;
+      width: 100%;
+      height: 100%;
   }
   
 
@@ -3337,9 +3426,12 @@ p.more-restaurand {
   .location-foodsea {
     flex-direction: column-reverse;
   }
+  .restaurand-left-foodsea, .location-right-foodsea {
+    max-width: 100%;
+}
   img.footimg-lo-foodsea, img.foodimg-re-foodsea {
-    width: 526px;
-    height: 544px;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -3373,9 +3465,9 @@ p.more-restaurand {
     width: 90%;
   }
   img.footimg-lo-foodsea, img.foodimg-re-foodsea {
-    width: 454px;
-    height: 544px;
-  }
+    width: 100%;
+    height: 100%;
+}
 
 }
 /* ----------------------------------------------- */
@@ -3526,24 +3618,25 @@ button.more-activities:hover{
 }
 
 .restaurand-activities {
-display: flex;
-width: 70%;
-margin: 0 auto;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .location-activities {
-display: flex;
-width: 70%;
-margin: 0 auto;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
 }
 
 img.footimg-lo-activities, img.foodimg-re-activities  {
-width: 531px;
-height: 500px;
+  width: 100%;
+  height: 100%;
 }
 
 .restaurand-left-activities, .location-right-activities {
-padding: 50px;
+  padding: 50px;
+  width: 50%;
 }
 
 h3.restau-activities ,h3.loca-activities{
@@ -3625,11 +3718,14 @@ a.btn-pro-activities:hover{
       width: 100%;
       flex-direction: column-reverse;
     }
+    .restaurand-left-activities, .location-right-activities {
+      width: 100%;
+    }
+    
     
     img.footimg-lo-activities, img.foodimg-re-activities {
-      width: 303px;
-      height: 444px;
-  
+      width: 100%;
+      height: 100%;
     }
 }
 /* ----------------------------------------------- */
@@ -3680,11 +3776,15 @@ a.btn-pro-activities:hover{
       flex-direction: column-reverse;
     }
     
-    img.footimg-lo-activities, img.foodimg-re-activities {
-      width: 357px;
-      height: 460px;
-  
-    }
+ .restaurand-left-activities, .location-right-activities {
+  width: 100%;
+}
+
+
+img.footimg-lo-activities, img.foodimg-re-activities {
+  width: 100%;
+  height: 100%;
+}
     
 
 }
@@ -3729,9 +3829,14 @@ a.btn-pro-activities:hover{
     flex-direction: column-reverse;
   }
   
+  .restaurand-left-activities, .location-right-activities {
+    width: 100%;
+  }
+  
+  
   img.footimg-lo-activities, img.foodimg-re-activities {
-    width: 397px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
   }
   
 
@@ -3772,10 +3877,14 @@ a.btn-pro-activities:hover{
   width: 75%;
   flex-direction: column-reverse;
 }
+.restaurand-left-activities, .location-right-activities {
+  width: 100%;
+}
+
 
 img.footimg-lo-activities, img.foodimg-re-activities {
-  width: 437px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -3819,10 +3928,13 @@ img.footimg-lo-activities, img.foodimg-re-activities {
   width: 75%;
   flex-direction: column-reverse;
 }
+.restaurand-left-activities, .location-right-activities {
+  width: 100%;
+}
 
 img.footimg-lo-activities, img.foodimg-re-activities {
-  width: 563px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
 }
 
 }
@@ -3843,8 +3955,8 @@ img.footimg-lo-activities, img.foodimg-re-activities {
     width: 82%;
   }
   img.footimg-lo-activities, img.foodimg-re-activities {
-    width: 413px;
-    height: 591px;
+    width: 100%;
+    height: 100%;
   }
 
 }
