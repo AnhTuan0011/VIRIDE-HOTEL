@@ -962,7 +962,7 @@ h2.sologan.end.gettouch
 
   .footer-end {
     display: block !important;
-    padding: 15px 90px !important;
+    padding: 15px 100px !important;
     margin:0 !important;
   }
   .footer-end-right {
@@ -2400,7 +2400,7 @@ img.image-ourservices.hotel {
   }
   /* footer */
   .footer-end {
-    padding: 15px 90px !important;
+    padding: 15px 100px !important;
 }
 }
 /* ----------------------------------------------- */
@@ -5551,6 +5551,11 @@ p.more-singleroom2 {
   margin-top: 8rem;
 }
 
+img.img-thumbnail {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
   
 }
 /* ----------------------------------------------- */
@@ -5569,7 +5574,11 @@ p.more-singleroom2 {
   font-size: 14px;
   margin-top: 8rem;
 }
-
+img.img-thumbnail {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
 
 }
 /* ----------------------------------------------- */
@@ -5589,7 +5598,11 @@ p.more-singleroom2 {
   font-size: 14px;
   margin-top: 8rem;
 }
-
+img.img-thumbnail {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
 
 }
 /* ----------------------------------------------- */
@@ -5610,11 +5623,21 @@ p.more-singleroom2 {
   font-size: 14px;
   margin-top: 8rem;
 }
+img.img-thumbnail {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
 
 }
 /* ----------------------------------------------- */
 
 @media (min-width:768px) and (max-width:1023px){
+  img.img-thumbnail {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
 
 }
 /* ----------------------------------------------- */
@@ -5670,6 +5693,7 @@ img.picture {
   height: 60px;
   border-radius: 1px;
   float: left;
+  object-fit: cover;
 }
 
 h3.restau-roomstyle1.bigblog,
